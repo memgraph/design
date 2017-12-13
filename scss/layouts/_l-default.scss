@@ -1,0 +1,85 @@
+// --------------------------------------------------
+// Layout default
+// --------------------------------------------------
+
+body, html {
+  font-weight: 500;
+}
+
+header {
+  background-color: $light-gray;
+  .nav-main {
+    @include grid-row;
+  }
+  nav {
+    @include grid-column;
+    li:first-child {
+      display: none;
+    }
+  }
+  .nav-brand {
+    display: inline-block;
+    padding: $global-padding;
+    background:$white;
+    border-bottom-right-radius: $global-radius;
+    border-bottom-left-radius: $global-radius;
+  }
+}
+
+.nav-main a {
+  color: $white;
+}
+
+@media (max-width: 768px) {
+  .nav-main ul li:nth-child(1),
+  .nav-main ul li:nth-child(4) {
+    display: none;
+  }
+  .nav-main ul li a {
+    padding: 20px 10px;
+  }
+}
+
+footer {
+  nav {
+    @include grid-column;
+  }
+}
+
+.nav-footer {
+  text-align: center;
+  padding: 40px;
+  .menu {
+    //width: 195px;
+    //margin: 0 auto;
+    a {
+      color: $black;
+      transition: color .2s ease-in-out;
+      &:hover, &:focus, &:active {
+        color: $brand-primary;
+      }
+    }
+  }
+  .menu-social {
+    margin-bottom: 50px;
+  }
+  p {
+    color: $medium-gray;
+    font-size: .8rem;
+    font-weight: 400;
+  }
+}
+
+nav {
+  font-weight: 600;
+}
+
+.text-muted {
+  color: $medium-gray;
+}
+
+.heading-purple {
+  font-weight: 600;
+  font-size: 100%;
+  color: purple;
+}

@@ -1,0 +1,23 @@
+// --------------------------------------------------
+// Links
+// --------------------------------------------------
+
+.button {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.button.small {
+  padding: $global-padding/2;
+}
+
+.button.inverse {
+  color: $white;
+}
+
+a.text-primary {
+  color: $brand-primary;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    color: darken($brand-primary, 15%)
+  }
+}
