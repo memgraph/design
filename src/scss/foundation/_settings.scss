@@ -1,0 +1,82 @@
+//  emgraph Web - Foundation for Sites Settings
+//  -----------------------------
+
+/*Global variables, site-wide settings, config switches, etc.*/
+
+/*
+* CONTENTS
+*  1. Color palette
+*  2. Foundation overrides
+*  3. Other variables
+*/
+
+
+/*---------- Color palette ----------*/
+$foundation-palette: (
+  primary: $black,
+  secondary: $brand-primary,
+  success: $brand-success,
+  warning: $brand-warning,
+  alert: $brand-danger,
+);
+
+/*---------- Foundation overrides ----------*/
+$global-font-size: 16px !default;
+$global-lineheight: 1.3 !default;
+$body-background: $lighter-gray;
+$body-font-color: $black;
+$body-font-family: 'Roboto', Arial, sans-serif;
+$header-font-family: 'Encode Sans', Arial, sans-serif;
+$button-font-family: 'Encode Sans', Arial, sans-serif;
+$global-margin: 20px;
+$global-padding: 20px;
+$global-radius: 8px;
+$global-menu-padding: 20px;
+$grid-margin-gutters: $global-padding;
+
+$button-color-alt: $white;
+$button-color: $white;
+$button-padding: $global-padding/1.5 $global-padding;
+
+$helptext-font-size: 14px;
+$helptext-font-style: normal;
+
+$form-spacing: 1.5rem;
+$small-font-size: .8rem !default;
+$input-border: none;
+$input-border-focus: none;
+$input-shadow: none;
+$input-shadow-focus: none;
+$input-padding: .5rem 0;
+$input-radius: 0;
+$input-background: transparent;
+
+$label-radius: 24px;
+$label-padding: .5rem .9rem;
+$label-background: $white;
+$label-color: $medium-gray;
+$label-color-alt: $white;
+
+$switch-paddle-radius: $global-padding;
+$switch-radius: $global-padding;
+$switch-background: lighten($medium-gray, 25%);
+
+$callout-border: none;
+$callout-font-color: $white;
+$callout-background-fade: 0;
+
+$print-breakpoint: medium;
+
+$anchor-color: $brand-secondary;
+
+$tab-content-border: transparent;
+$tab-background-active: $brand-primary;
+$tab-active-color: $white;
+
+/*---------- Other variables ----------*/
+
+$bold-font-family: 'Roboto', Arial, sans-serif;
+$font-family-monospace: 'Roboto Mono', Consolas, monospace;
+$global-line-height: 1.6rem;
+
+$contrast-warnings: false;

@@ -1,0 +1,9 @@
+// Fonts
+
+// Base fonts
+@include font-face("Encode Sans", "../assets/fonts/Encode_Sans_Semi_Condensed/EncodeSansSemiCondensed-Regular", 400, normal, ttf);
+@include font-face("Encode Sans", "../assets/fonts/Encode_Sans_Semi_Condensed/EncodeSansSemiCondensed-Bold", 600, normal, ttf);
+@include font-face("Encode Sans", "../assets/fonts/Encode_Sans_Semi_Condensed/EncodeSansSemiCondensed-ExtraBold", 800, normal, ttf);
+@include font-face(Roboto, "../assets/fonts/Roboto/Roboto-Regular", 400, normal, ttf);
+@include font-face(Roboto, "../assets/fonts/Roboto/Roboto-Bold", 700, normal, ttf);
+@include font-face("Roboto Mono", "../assets/fonts/RobotoMono-Regular", 400, normal, ttf);

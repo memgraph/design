@@ -3,15 +3,15 @@ var sherpa = require('style-sherpa');
 var sass = require('gulp-sass');
 
 gulp.task('sass', function() {
-    return gulp.src('scss/app.scss')
+    return gulp.src('src/scss/app.scss')
         .pipe(sass())
-        .pipe(gulp.dest('styleguide/css'))
+        .pipe(gulp.dest('src/styleguide/css'))
 });
 
 // Generate a style guide from the Markdown content
 gulp.task('styleGuide', function() {
-    sherpa('styleguide/index.md', {
-        output: 'styleguide/styleguide.html',
-        template: 'styleguide/template.hbs'
+    sherpa('src/styleguide/index.md', {
+        output: 'src/styleguide/styleguide.html',
+        template: 'src/styleguide/template.hbs'
     } );
 });
