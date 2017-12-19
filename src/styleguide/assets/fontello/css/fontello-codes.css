@@ -22,6 +22,12 @@
 .icon-time:before { content: '\e814'; } /* '' */
 .icon-vacation:before { content: '\e815'; } /* '' */
 .icon-trophy:before { content: '\e816'; } /* '' */
+.icon-access:before { content: '\e817'; } /* '' */
+.icon-connection:before { content: '\e818'; } /* '' */
+.icon-disk:before { content: '\e819'; } /* '' */
+.icon-interface:before { content: '\e81a'; } /* '' */
+.icon-spread:before { content: '\e81b'; } /* '' */
+.icon-target:before { content: '\e81c'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
 .icon-up-open:before { content: '\f005'; } /* '' */
 .icon-right-open:before { content: '\f006'; } /* '' */

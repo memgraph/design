@@ -1,0 +1,82 @@
+
+
+// 0. Theme Colors
+$brand-primary: #FB6E00;
+$brand-secondary: #720096;
+$brand-pink: #FF0092;
+$brand-red: #FF0000;
+$brand-success: #00CCBB;
+$brand-warning: #FFC500;
+$brand-white: #ffffff;
+$brand-black: #231f20;
+$brand-gray: #857f87;
+$brand-silver: #e6e6e6;
+$brand-light: #f9f9f9;
+
+
+
+// 1. Typography
+
+// Fonts
+
+// Base fonts
+@include font-face("Encode Sans", "../assets/fonts/Encode_Sans_Semi_Condensed/EncodeSansSemiCondensed-Regular", 400, normal, ttf);
+@include font-face("Encode Sans 600", "../assets/fonts/Encode_Sans_Semi_Condensed/EncodeSansSemiCondensed-Bold", 600, normal, ttf);
+@include font-face("Encode Sans 800", "../assets/fonts/Encode_Sans_Semi_Condensed/EncodeSansSemiCondensed-ExtraBold", 800, normal, ttf);
+@include font-face("Roboto", "../assets/fonts/Roboto/Roboto-Regular", 400, normal, ttf);
+@include font-face("Roboto 700", "../assets/fonts/Roboto/Roboto-Bold", 700, normal, ttf);
+@include font-face("Roboto Mono", "../assets/fonts/RobotoMono-Regular", 400, normal, ttf);
+
+// Type
+
+.lead {
+  color: $brand-gray;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.label, .badge {
+  font-weight: 600;
+}
+
+.gradient-primary {
+  @include gradient-primary;
+}
+
+.gradient-dark {
+  @include gradient-dark;
+}
+
+.gradient-punch {
+  @include gradient-punch;
+}
+
+.gradient-light {
+  @include gradient-light;
+}
+
+.gradient-auxiliary {
+  @include gradient-auxiliary;
+}
+
+
+// UI
+
+.tabs-content,
+.tabs,
+.dropdown-pane {
+  @include box-shadow();
+}
+
+.callout a {
+  color: $brand-light;
+  text-decoration: underline;
+  &:hover, &:focus, &:active {
+    color: $brand-white;
+  }
+}
+
+
+
