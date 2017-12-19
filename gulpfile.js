@@ -3,7 +3,7 @@ var sherpa = require('style-sherpa');
 var sass = require('gulp-sass');
 
 gulp.task('sass', function() {
-    return gulp.src('src/scss/app.scss')
+    return gulp.src('src/scss/memgraph-foundation.scss')
         .pipe(sass())
         .pipe(gulp.dest('src/styleguide/css'))
 });
