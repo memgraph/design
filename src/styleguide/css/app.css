@@ -5206,16 +5206,16 @@ table {
   margin-bottom: 1.25rem;
   border-radius: 6px; }
   thead, tbody, tfoot {
-    border: 1px solid #f2f2f2;
+    border: 1px solid #f7f7f7;
     background-color: #ffffff; }
   caption {
     padding: 0.5rem 0.625rem 0.625rem;
     font-weight: bold; }
   thead {
-    background: #f9f9f9;
+    background: #fbfbfb;
     color: #231f20; }
   tfoot {
-    background: #f2f2f2;
+    background: #f7f7f7;
     color: #231f20; }
   thead tr, tfoot tr {
     background: transparent; }
@@ -5227,12 +5227,12 @@ table {
     padding: 0.5rem 0.625rem 0.625rem; }
   tbody tr:nth-child(even) {
     border-bottom: 0;
-    background-color: #f2f2f2; }
+    background-color: #f7f7f7; }
   table.unstriped tbody {
     background-color: #ffffff; }
     table.unstriped tbody tr {
       border-bottom: 0;
-      border-bottom: 1px solid #f2f2f2;
+      border-bottom: 1px solid #f7f7f7;
       background-color: #ffffff; }
 
 @media screen and (max-width: 63.9375em) {
@@ -5253,16 +5253,16 @@ table.scroll {
   overflow-x: auto; }
 
 table.hover thead tr:hover {
-  background-color: #f4f4f4; }
+  background-color: #f6f6f6; }
 
 table.hover tfoot tr:hover {
-  background-color: #ededed; }
+  background-color: #f2f2f2; }
 
 table.hover tbody tr:hover {
   background-color: #fafafa; }
 
 table.hover:not(.unstriped) tr:nth-of-type(even):hover {
-  background-color: #ededed; }
+  background-color: #f2f2f2; }
 
 .table-scroll {
   overflow-x: auto; }
