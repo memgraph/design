@@ -13,7 +13,7 @@
 //
 // 1. Encoding
 // --------------------------------------------------
-@charset 'UTF-8';
+@charset "UTF-8";
 
 
 // 2. Helpers
@@ -28,7 +28,7 @@
 // 3. Theme
 // --------------------------------------------------
 @import 'base/theme';
-@import '../assets/fontello/css/fontello.css';
+@import '../fontello/css/fontello.css';
 
 //
 // 4. Foundation

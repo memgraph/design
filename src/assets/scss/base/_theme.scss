@@ -20,12 +20,21 @@ $brand-light: #f9f9f9;
 // Fonts
 
 // Base fonts
-@include font-face("Encode Sans", "../assets/fonts/Encode_Sans_Semi_Condensed/EncodeSansSemiCondensed-Regular", 400, normal, ttf);
-@include font-face("Encode Sans 600", "../assets/fonts/Encode_Sans_Semi_Condensed/EncodeSansSemiCondensed-Bold", 600, normal, ttf);
-@include font-face("Encode Sans 800", "../assets/fonts/Encode_Sans_Semi_Condensed/EncodeSansSemiCondensed-ExtraBold", 800, normal, ttf);
-@include font-face("Roboto", "../assets/fonts/Roboto/Roboto-Regular", 400, normal, ttf);
-@include font-face("Roboto 700", "../assets/fonts/Roboto/Roboto-Bold", 700, normal, ttf);
-@include font-face("Roboto Mono", "../assets/fonts/RobotoMono-Regular", 400, normal, ttf);
+@include font-face("Encode Sans", "../fonts/Encode_Sans_Semi_Condensed/EncodeSansSemiCondensed-Regular", 400, normal, ttf);
+@include font-face("Encode Sans 600", "../fonts/Encode_Sans_Semi_Condensed/EncodeSansSemiCondensed-Bold", 600, normal, ttf);
+@include font-face("Encode Sans 800", "../fonts/Encode_Sans_Semi_Condensed/EncodeSansSemiCondensed-ExtraBold", 800, normal, ttf);
+@include font-face("Roboto", "../fonts/Roboto/Roboto-Regular", 400, normal, ttf);
+@include font-face("Roboto 700", "../fonts/Roboto/Roboto-Bold", 700, normal, ttf);
+@include font-face("Roboto Mono", "../fonts/RobotoMono-Regular", 400, normal, ttf);
+
+.menu-text {
+  font-family: "Encode Sans", Arial, sans-serif;
+}
+
+h4, h5, h6 {
+  font-family: "Encode Sans 600", Arial, sans-serif !important;
+}
+
 
 // Type
 
@@ -78,6 +87,8 @@ blockquote {
   }
 }
 
+
+// Off panel
 .card.off-panel {
   position: fixed;
   overflow-y: auto;
@@ -101,6 +112,21 @@ blockquote {
   transition: margin-left ease .25s;
 }
 
+.off-panel-btn {
+  z-index: 0;
+  position: relative;
+  left: -20px;
+  top: -20px;
+  padding: 1rem 0.3rem;
+  border-radius: 0 0 6px 0;
+  @include gradient-auxiliary;
+  @include box-shadow();
+  cursor: pointer;
+  transition: opacity ease .2s;
+  &:hover {
+    opacity: .75;
+  }
+}
 
 // Table
 table thead {
@@ -124,46 +150,6 @@ table thead {
   box-shadow: 0 2px 16px 0 rgba(0,0,0,.07);
 }
 
-// Top bar
-.menu a.top-bar-title {
-  padding: 0.5rem;
-  border-right: 1px solid $brand-silver;
-}
-
-.menu-text {
-  font-family: "Encode Sans", Arial, sans-serif;
-}
-
-h4, h5, h6 {
-  font-family: "Encode Sans 600", Arial, sans-serif !important;
-}
-
-button {
-  outline: none;
-}
-
-
-.off-panel-btn {
-  z-index: 0;
-  position: relative;
-  left: -20px;
-  top: -20px;
-  padding: 1rem 0.3rem;
-  border-radius: 0 0 6px 0;
-  @include gradient-auxiliary;
-  @include box-shadow();
-  cursor: pointer;
-  transition: opacity ease .2s;
-  &:hover {
-    opacity: .75;
-  }
-}
-
-.sticky-container {
-  z-index: 1;
-}
-
-
 // Form inputs
 input.form-control {
   border-bottom: 1px solid $brand-silver;
@@ -186,21 +172,12 @@ input.form-control {
   }
 }
 
-
-// Reveal
-.reveal {
-  outline: none;
+// Sticky
+.sticky-container {
+  z-index: 1;
 }
 
-div.reveal-overlay,
-html.is-reveal-open{
-  overflow-y: auto !important;
-}
-
-.reveal-overlay.fade-in {
-  transition-duration: 0.1s;
-}
-
+// Helpers
 
 .title-decorative {
   @include gradient-text;
@@ -210,22 +187,6 @@ html.is-reveal-open{
   text-transform: uppercase;
 }
 
-
 .text-primary {
   color: $brand-primary;
-}
-
-.card-section + .card-divider {
-  border-top: 1px solid lighten($brand-silver, 5%);
-  @include box-shadow();
-  display: block;
-  padding: 0;
-  &> span:first-child {
-    display: inline-block;
-    padding: 10px 0 0 20px;
-    font-size: .75rem;
-  }
-  &> span:last-child {
-    border-left: 1px solid $brand-silver;
-  }
 }
