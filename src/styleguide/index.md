@@ -6,7 +6,6 @@ To customize the use of Foundation components, copy the `_foundation.scss` and `
 
 
 
-
 # Colors
 
 The Memgraph primary pallette represents the brand. It is vivid, clean and bold. Use primary colors sparsly, when emphasizing elements. These colors are best used in form of gradients for content areas, backgrounds etc. Main accent color for text is orange.
@@ -197,7 +196,6 @@ Use Encode Sans Pro only for headings, and avoid using italics. Never use it for
 
 <form>
     <div class="grid-x grid-padding-x">
-
         <div class="medium-6 cell">
             <label>Input Label
                 <input type="text" placeholder=".medium-6.cell">
@@ -208,7 +206,6 @@ Use Encode Sans Pro only for headings, and avoid using italics. Never use it for
                 <input type="text" placeholder=".medium-6.cell">
             </label>
         </div>
-
         <label class="large-12 cell">Select Menu
             <select>
                 <option value="husker">Husker</option>
@@ -217,21 +214,18 @@ Use Encode Sans Pro only for headings, and avoid using italics. Never use it for
                 <option value="apollo">Apollo</option>
             </select>
         </label>
-
         <fieldset class="large-6 cell">
             <legend>Choose Your Favorite</legend>
             <input type="radio" name="pokemon" value="Red" id="pokemonRed" required><label for="pokemonRed">Red</label>
             <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
             <input type="radio" name="pokemon" value="Yellow" id="pokemonYellow"><label for="pokemonYellow">Yellow</label>
         </fieldset>
-
         <fieldset class="large-6 cell">
             <legend>Check these out</legend>
             <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
             <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
             <input id="checkbox3" type="checkbox"><label for="checkbox3">Checkbox 3</label>
         </fieldset>
-
         <div class="large-12 input-group cell">
             <span class="input-group-label">$</span>
             <input class="input-group-field" type="number">
@@ -320,15 +314,21 @@ For primary button purposes, main color is black. Inside the app, stick to the p
 
 # Tooltip
 
-<div class="card card-section">
-    <p>
-        The <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Fancy word for a beetle.">scarabaeus</span> hung quite clear of any branches, and, if allowed to fall, would have fallen at our feet.
-    </p>
-</div>
+Use tooltip to show small amounts of contextual data. Best to use in graphs or tables to provide additional information.
+Always place it on top if possible.
+
+<blockquote>
+    The <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover="false" tabindex="1" title="Fancy word for a beetle.">scarabaeus</span> hung quite clear of any branches, and, if allowed to fall, would have fallen at our feet.
+</blockquote>
+
 
 
 
 # Table
+
+Use table to display big, more complex sets of data. If the table is a standalone element in the UI against the body background, wrap it into `card` class element.
+
+Table next to other content:
 
 <table>
   <thead>
@@ -361,10 +361,66 @@ For primary button purposes, main color is black. Inside the app, stick to the p
   </tbody>
 </table>
 
+Table as a standalone element:
+<div class="card">
+  <table>
+    <thead>
+      <tr>
+        <th width="200">Table Header</th>
+        <th>Table Header</th>
+        <th width="150">Table Header</th>
+        <th width="150">Table Header</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Content Goes Here</td>
+        <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+        <td>Content Goes Here</td>
+        <td>Content Goes Here</td>
+      </tr>
+      <tr>
+        <td>Content Goes Here</td>
+        <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+        <td>Content Goes Here</td>
+        <td>Content Goes Here</td>
+      </tr>
+      <tr>
+        <td>Content Goes Here</td>
+        <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+        <td>Content Goes Here</td>
+        <td>Content Goes Here</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 
 # Charts
 ...
+
+
+
+# Slider
+
+Use slider in forms when user needs to choose a number within a specified range. Use number input next to slider whenever possible to ensure easier use.
+
+<div class="container">
+    <div class="grid-x">
+        <div class="small-10 columns">
+          <div class="slider" data-slider data-initial-start="50" data-start="50" data-end="200">
+            <span class="slider-handle" data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput1"></span>
+            <span class="slider-fill" data-slider-fill></span>
+          </div>
+        </div>
+        <div class="small-2 columns">
+          <input type="number" id="sliderOutput1">
+        </div>
+    </div>
+</div>
+
+
 
 
 
@@ -373,7 +429,7 @@ For primary button purposes, main color is black. Inside the app, stick to the p
 We use Fontello to define custom UI icons.
 
 
-<div id="icons" class="container">
+<div class="container">
     <div class="grid-x">
         <div class="small-4">
             <div>

@@ -7,11 +7,6 @@
 // 0. Theme
 // 1. Global
 // 3. Base Typography
-// 2.
-// 2.
-// 2.
-// 2.
-// 2.
 
 // 1. Global
 // ---------
@@ -42,13 +37,13 @@ $light-gray: $brand-silver;
 $lighter-gray: $brand-light;
 $white: $brand-white;
 
-$body-background: $lighter-gray;
+$body-background: $light-gray;
 $body-font-color: $black;
 $body-font-family: 'Roboto', Arial, sans-serif;
 $global-margin: 1.25rem;
 $global-padding: 1.25rem;
 $global-radius: 6px;
-$global-menu-padding: 0;
+$global-menu-padding: 1.25rem;
 $global-menu-nested-margin: 1rem;
 
 $grid-column-gutter: (
@@ -99,8 +94,6 @@ $button-background: $black;
 $button-background-hover-lightness: 15%;
 $button-color-alt: $white;
 $button-responsive-expanded: true;
-$button-hollow-border-width: 2px;
-
 
 // 13. Callout
 // -----------
@@ -115,9 +108,15 @@ $callout-link-tint: 0%;
 // 14. Card
 // --------
 
-$card-divider-background: lighten($light-gray, 5%);
+$card-divider-background: $lighter-gray;
 $card-border: 1px solid lighten($light-gray, 5%);
 $card-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.07);
+
+
+// 15. Close Button
+// ----------------
+$closebutton-color: $medium-gray;
+$closebutton-color-hover: $dark-gray;
 
 // 17. Dropdown
 // ------------
@@ -139,8 +138,8 @@ $form-label-color: $dark-gray;
 $select-radius: $global-radius/2;
 $input-font-family: $body-font-family;
 $input-background-disabled: $lighter-gray;
-$input-border: 1px solid $light-gray;
-$input-border-focus: 1px solid $medium-gray;
+$input-border: none;
+$input-border-focus: none;
 $input-shadow: none;
 $input-shadow-focus: none;
 $input-radius: $global-radius/2;
@@ -157,10 +156,45 @@ $label-color-alt: $white;
 $menu-margin: 0;
 $menu-simple-margin: 1rem;
 
+
+// 25. Off-canvas
+// --------------
+
+$offcanvas-sizes: (
+        small: 320px,
+);
+$offcanvas-vertical-sizes: (
+        small: 320px,
+);
+$offcanvas-background: $white;
+$offcanvas-shadow: 0 0 16px rgba(0, 0, 0, 0.07);
+$offcanvas-transition-timing: ease-in-out;
+
+// 47. Reveal
+// ----------
+
+$reveal-border: 1px solid $light-gray;
+$reveal-overlay-background: rgba($black, 0.25);
+
+
+// 48. Slider
+// ----------
+
+$slider-fill-background: $brand-primary;
+$slider-radius: $global-radius*2;
+$slider-width-vertical: 0.25rem;
+$slider-height: 0.25rem;
+$slider-handle-height: 1.25rem;
+$slider-handle-width: 1.25rem;
+
 // 50. Table
 // ---------
 
 $table-color-scale: 3%;
+$table-stripe: odd;
+$table-head-background: $white;
+$table-head-row-hover: $white;
+
 
 // 51. Tabs
 // --------
@@ -178,15 +212,25 @@ $thumbnail-shadow-hover: none;
 // -------------
 
 $titlebar-background: $white;
+$titlebar-padding: 0;
 $titlebar-color: $black;
 $titlebar-text-font-weight: normal;
+$titlebar-icon-color: $black;
+$titlebar-icon-color-hover: $dark-gray;
+
 
 // 54. Tooltip
 // -----------
 $tooltip-background-color: rgba(35, 31, 32, 0.96); // our black but transparent
+$has-tip-cursor: default;
+
 
 // 55. Top Bar
 // -----------
-
 $topbar-padding: 0;
 $topbar-background: $white;
+$topbar-title-spacing: 0;
+
+
+// Other
+$contrast-warnings: false;

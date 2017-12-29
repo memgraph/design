@@ -176,7 +176,7 @@
     },
     {
       "uid": "8669af50382b53c48b9b803692828dd0",
-      "css": "github-circled-alt2",
+      "css": "github",
       "code": 61526,
       "src": "mfglabs"
     },
@@ -431,6 +431,30 @@
       "search": [
         "target"
       ]
+    },
+    {
+      "uid": "87276033a77d0b9b890125c3639e4f87",
+      "css": "slack",
+      "code": 61848,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "c30b64ea0091fb65b8e084b9a4c4088a",
+      "css": "bars",
+      "code": 59421,
+      "src": "iconic"
+    },
+    {
+      "uid": "7184d8171b6a9b18eabbace94cca21db",
+      "css": "chart-line",
+      "code": 59467,
+      "src": "entypo"
+    },
+    {
+      "uid": "fb5082fac1794b69a1381196219a836e",
+      "css": "chart-pie",
+      "code": 59466,
+      "src": "entypo"
     }
   ]
 }

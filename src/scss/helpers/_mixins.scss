@@ -133,3 +133,11 @@
     box-shadow: $top $left $blur $color;
   }
 }
+
+
+// Text gradients
+@mixin gradient-text($start: $brand-warning, $stop: $brand-primary) {
+  background: -webkit-linear-gradient(left, $start, $stop);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -78,5 +78,154 @@ blockquote {
   }
 }
 
+.card.off-panel {
+  position: fixed;
+  overflow-y: auto;
+  height: 100%;
+  padding-top: 80px;
+  top: 0;
+  width: 320px;
+  transform: translateX(-100%);
+  transition: transform ease .25s;
+  border-radius: 0;
+  &.is-active {
+    transform: translateX(0);
+  }
+}
+
+.is-active + .off-panel-main {
+  margin-left: 320px;
+}
+
+.off-panel-main {
+  transition: margin-left ease .25s;
+}
 
 
+// Table
+table thead {
+  text-transform: uppercase;
+  font-family: "Encode Sans 600", Arial, sans-serif;
+  font-weight: normal;
+  tr:hover {
+    background: #ffffff !important;
+  }
+}
+
+// If table is the only element within card
+.card > table {
+  thead, tbody, tfoot {
+    border: none;
+  }
+}
+
+// Title bar
+.title-bar {
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,.07);
+}
+
+// Top bar
+.menu a.top-bar-title {
+  padding: 0.5rem;
+  border-right: 1px solid $brand-silver;
+}
+
+.menu-text {
+  font-family: "Encode Sans", Arial, sans-serif;
+}
+
+h4, h5, h6 {
+  font-family: "Encode Sans 600", Arial, sans-serif !important;
+}
+
+button {
+  outline: none;
+}
+
+
+.off-panel-btn {
+  z-index: 0;
+  position: relative;
+  left: -20px;
+  top: -20px;
+  padding: 1rem 0.3rem;
+  border-radius: 0 0 6px 0;
+  @include gradient-auxiliary;
+  @include box-shadow();
+  cursor: pointer;
+  transition: opacity ease .2s;
+  &:hover {
+    opacity: .75;
+  }
+}
+
+.sticky-container {
+  z-index: 1;
+}
+
+
+// Form inputs
+input.form-control {
+  border-bottom: 1px solid $brand-silver;
+  transition: border-bottom-color ease .15s;
+  &:hover, &:focus, &:active {
+    border-bottom: 1px solid $brand-primary;
+  }
+  &[disabled] {
+    border-bottom: 1px solid $brand-silver;
+    color: $brand-gray !important;
+  }
+  &--danger {
+    border-bottom: 1px solid $brand-silver;
+    &:hover {
+      border-bottom: 1px solid $brand-silver;
+    }
+    &:focus, &:active {
+      border-bottom: 1px solid $brand-silver;
+    }
+  }
+}
+
+
+// Reveal
+.reveal {
+  outline: none;
+}
+
+div.reveal-overlay,
+html.is-reveal-open{
+  overflow-y: auto !important;
+}
+
+.reveal-overlay.fade-in {
+  transition-duration: 0.1s;
+}
+
+
+.title-decorative {
+  @include gradient-text;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+
+.text-primary {
+  color: $brand-primary;
+}
+
+.card-section + .card-divider {
+  border-top: 1px solid lighten($brand-silver, 5%);
+  @include box-shadow();
+  display: block;
+  padding: 0;
+  &> span:first-child {
+    display: inline-block;
+    padding: 10px 0 0 20px;
+    font-size: .75rem;
+  }
+  &> span:last-child {
+    border-left: 1px solid $brand-silver;
+  }
+}

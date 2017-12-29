@@ -4,8 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Memgraph Style Guide</title>
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+    <link rel="stylesheet" href="css/memgraph-foundation.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/arta.min.css">
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
 
     <!-- Style guide-specific CSS goes here. -->
     <style>
@@ -62,8 +63,8 @@
     <h1>Memgraph Style Guide</h1>
     <p class="lead">This style guide was built with Foundation for Sites. For more information on how to use this responsive front-end framework, check out the documentation, get help from the Foundation community, or request immediate technical support.</p>
     <a href="http://foundation.zurb.com/sites/docs/" class="button primary">Visit the Docs</a>
-    <a href="http://foundation.zurb.com/sites/forum/" class="button warning">Foundation Forum</a>
-    <a href="https://foundation.zurb.com/get-involved/support.html" class="button warning">Technical Support</a>
+    <a href="http://foundation.zurb.com/sites/forum/" class="button primary hollow">Foundation Forum</a>
+    <a href="https://foundation.zurb.com/get-involved/support.html" class="button primary hollow">Technical Support</a>
 </div>
 
 <div class="grid-container">
@@ -92,8 +93,14 @@
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="../../node_modules/foundation-sites/dist/js/foundation.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script>
     $(document).foundation();
+    $(document).ready(function() {
+        $('pre code').each(function(i, block) {
+            hljs.highlightBlock(block);
+        });
+    });
 </script>
 </body>
 </html>
