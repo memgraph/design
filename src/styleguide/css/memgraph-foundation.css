@@ -166,7 +166,7 @@ blockquote {
 
 .card.off-panel {
   position: fixed;
-  overflow-y: scroll;
+  overflow-y: auto;
   height: 100%;
   padding-top: 80px;
   top: 0;
