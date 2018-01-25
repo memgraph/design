@@ -1,5 +1,9 @@
-# Stylesheet
-assets/css/app.css
+# Dist
+_dist
+_styleguide
+
+# Vendor stuff
+src/assets/libs/
 
 # JavaScript
 assets/js/all.js
@@ -53,3 +57,6 @@ composer.lock
 
 *.swo
 *.swp
+
+
+templates/

@@ -1,12 +1,9 @@
-//  Memgraph Web - Foundation for Sites Settings
+//  Memgraph Web - Foundation for Sites Settings - custom design for Memgraph ecosystem
+// For more options look into settings file inside libs/foundation-sites, or check foundation documentation at: https://foundation.zurb.com/sites/docs/
 //  -----------------------------
 
 /*Global variables, site-wide settings, config switches, etc.*/
 
-//  Table of Contents:
-// 0. Theme
-// 1. Global
-// 3. Base Typography
 
 // 1. Global
 // ---------
@@ -229,7 +226,7 @@ $has-tip-cursor: default;
 // -----------
 $topbar-padding: 0;
 $topbar-background: $white;
-$topbar-title-spacing: 0;
+$topbar-title-spacing: 0 0 0 0;
 
 
 // Other

@@ -3,6 +3,10 @@
 // --------------------------------------------------
 
 
+
+// Animations
+
+
 /* Ripple Out */
 @-webkit-keyframes ripple-out {
   100% {
@@ -33,7 +37,7 @@
 .ripple-out:before {
   content: '';
   position: absolute;
-  //border: $black solid 1px;
+  border: $brand-black solid 1px;
   top: 0;
   right: 0;
   bottom: 0;

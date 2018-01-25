@@ -18,17 +18,25 @@
 
 // 2. Helpers
 // --------------------------------------------------
-// Functions
-@import 'helpers/functions';
+
+// Global colors
+@import 'base/colors';
 
 // Mixins
 @import 'helpers/mixins';
 
-//
+// Global typography
+@import 'base/typography';
+
+// Functions
+@import 'helpers/functions';
+
+
 // 3. Theme
 // --------------------------------------------------
-@import 'base/theme';
-@import '../fontello/css/fontello.css';
+@import 'theme/theme';
+@import 'theme/demo-theme';
+@import '../assets/fontello/css/fontello.css';
 
 //
 // 4. Foundation
@@ -43,5 +51,5 @@
 //   in foundation/_foundation.scss.
 
 // Import all of Foundation
-@import 'foundation/foundation';
+@import 'memgraph-foundation/foundation';
 

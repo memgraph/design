@@ -22,9 +22,10 @@
 // Foundation Components
 // --------------------------------------------------
 // Behold, here are all the Foundation components.
-//
-@import './node_modules/foundation-sites/scss/foundation';
-@import './node_modules/motion-ui/src/motion-ui';
+// These are relative imports to design repo
+
+@import '../../assets/libs/foundation-sites/scss/foundation';
+@import '../../assets/libs/motion-ui/src/motion-ui';
 
 @include foundation-global-styles;
 

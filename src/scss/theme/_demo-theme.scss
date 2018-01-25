@@ -1,0 +1,108 @@
+// Memgraph Foundation styles - Custom styles for demo or application purposes
+
+
+
+// Off panel
+.card.off-panel {
+  position: fixed;
+  overflow-y: auto;
+  height: 100%;
+  padding-top: 80px;
+  top: 0;
+  width: 320px;
+  transform: translateX(-100%);
+  transition: transform ease .25s;
+  border-radius: 0;
+  &.is-active {
+    transform: translateX(0);
+  }
+
+  // Menu inside off-panel
+  .menu li {
+    color: $brand-primary;
+    font-family: $header-font-family;
+    font-weight: 600;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    &.is-active {
+      background-color: #f6f6f6;
+      background-image: linear-gradient(-45deg, #f6f6f6 0%, $brand-white 100%);
+      position: relative;
+      &:after {
+        content: '';
+        background-color: #f6f6f6;
+        background-image: linear-gradient(-45deg, #f6f6f6 0%, $brand-light 100%);
+        position: absolute;
+        width: 20px;
+        height: 100%;
+        top: 0;
+        right: -20px;
+      }
+    }
+    p {
+      color: $brand-gray;
+      font-size: 85%;
+      font-family: $body-font-family;
+      font-weight:400;
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Main page content
+.off-panel-main {
+  transition: margin-left ease .25s;
+  padding-top: 60px; // top padding to escape overlap from off-panel-button
+}
+
+// Toggle button for off-panel
+.off-panel-btn {
+  z-index: 0;
+  position: fixed;
+  left: 0;
+  top: 60px;
+  padding: 1rem 0.3rem;
+  border-radius: 0 0 6px 0;
+  @include gradient-auxiliary;
+  @include box-shadow();
+  cursor: pointer;
+  transition: left ease .25s;
+  outline: none;
+  &:hover {
+    opacity: .75;
+  }
+}
+
+// Off-panel-main active content left-margin/positioning
+.is-active + .off-panel-main {
+  margin-left: 320px;
+  .off-panel-btn {
+    left: 320px;
+  }
+}
+
+.menu a.top-bar-title {
+  border-right: 1px solid #e6e6e6;
+}
+
+
+// Off panel footer
+.card-section + .card-divider {
+  border-top: 1px solid #f3f3f3;
+  -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+  display: block;
+  padding: 0;
+}
+
+.card-section + .card-divider > span:first-child {
+  display: inline-block;
+  padding: 10px 0 0 20px;
+  font-size: .75rem;
+}
+
+.card-section + .card-divider > span:last-child {
+  border-left: 1px solid #e6e6e6;
+}
