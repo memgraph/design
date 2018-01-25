@@ -32,13 +32,12 @@
 @import 'helpers/functions';
 
 
-// 3. Theme
+// 3. Icon Font
 // --------------------------------------------------
-@import 'theme/theme';
-@import 'theme/demo-theme';
+
 @import '../assets/fontello/css/fontello.css';
 
-//
+
 // 4. Foundation
 // --------------------------------------------------
 // Source: http://foundation.zurb.com/docs/
@@ -52,4 +51,9 @@
 
 // Import all of Foundation
 @import 'memgraph-foundation/foundation';
+
+
+// 5. Themes
+@import 'theme/theme';
+@import 'theme/demo-theme';
 

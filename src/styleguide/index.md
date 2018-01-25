@@ -198,16 +198,16 @@ Use Encode Sans Pro only for headings, and avoid using italics. Never use it for
     <div class="grid-x grid-padding-x">
         <div class="medium-6 cell">
             <label>Input Label
-                <input type="text" placeholder=".medium-6.cell">
+                <input class="form-control" type="text" placeholder=".medium-6.cell">
             </label>
         </div>
         <div class="medium-6 cell">
             <label>Input Label
-                <input type="text" placeholder=".medium-6.cell">
+                <input class="form-control" type="text" placeholder=".medium-6.cell">
             </label>
         </div>
         <label class="large-12 cell">Select Menu
-            <select>
+            <select class="form-control">
                 <option value="husker">Husker</option>
                 <option value="starbuck">Starbuck</option>
                 <option value="hotdog">Hot Dog</option>
@@ -228,7 +228,7 @@ Use Encode Sans Pro only for headings, and avoid using italics. Never use it for
         </fieldset>
         <div class="large-12 input-group cell">
             <span class="input-group-label">$</span>
-            <input class="input-group-field" type="number">
+            <input class="form-control" class="input-group-field" type="number">
             <div class="input-group-button">
                 <input type="submit" class="button" value="Submit">
             </div>
@@ -263,13 +263,13 @@ For primary button purposes, main color is black. Inside the app, stick to the p
 
 
 <div class="callout">
-  <h5>This is a callout.</h5>
+  <h5>This is a default callout.</h5>
   <p>It has an easy to override visual style, and is appropriately subdued.</p>
   <a href="#">It's dangerous to go alone, take this.</a>
 </div>
 
 <div class="callout primary">
-  <h5>This is a secondary callout</h5>
+  <h5>This is a primary callout</h5>
   <p>It has an easy to override visual style, and is appropriately subdued.</p>
   <a href="#">It's dangerous to go alone, take this.</a>
 </div>

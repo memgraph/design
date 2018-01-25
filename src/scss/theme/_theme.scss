@@ -1,10 +1,8 @@
 // Memgraph Foundation styles - General custom style overrides that cannot be set with updating Foundation's settings.scss
 
-h4, h5, h6, .menu-text {
-  font-family: $header-font-family;
-  font-weight: 600;
+h4, h5, h6 {
+  font-weight: bold;
 }
-
 
 // Type styles
 
@@ -56,13 +54,22 @@ blockquote {
 }
 
 
-// Callout (modal box)
-.callout a {
-  color: $brand-light;
-  text-decoration: underline;
-  &:hover, &:focus, &:active {
-    color: $brand-white;
+// Callout
+.callout {
+  a {
+    color: $brand-light;
+    text-decoration: underline;
+    &:hover, &:focus, &:active {
+      color: $brand-white;
+    }
   }
+}
+
+// Reveal
+a,
+button,
+.reveal {
+  outline: none;
 }
 
 
@@ -89,8 +96,15 @@ table thead {
   box-shadow: 0 2px 16px 0 rgba(0,0,0,.07);
 }
 
+.menu .menu-text {
+  font-family: $header-font-family;
+  padding: 1.25rem;
+  line-height: 1.3;
+  color: inherit;
+}
+
 // Form inputs
-input.form-control {
+input.form-control, select.form-control {
   border-bottom: 1px solid $brand-silver;
   transition: border-bottom-color ease .15s;
   &:hover, &:focus, &:active {
@@ -113,7 +127,7 @@ input.form-control {
 
 // Sticky
 .sticky-container {
-  z-index: 1;
+  z-index: 2;
 }
 
 .menu a.top-bar-title {

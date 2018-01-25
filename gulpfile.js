@@ -83,9 +83,15 @@ gulp.task('copyStyleguideAssets', function() {
         .pipe(gulp.dest('_styleguide/assets'));
 });
 
+// Copy html templates for styleguide
+gulp.task('copyHtmlTemplates', function() {
+    return gulp.src('src/styleguide/**/*.html')
+        .pipe(gulp.dest('_styleguide'));
+});
+
 // Build Styleguide
 gulp.task('buildStyleguide', function(done) {
-    sequence('cleanStyleguide', 'styleguideSass', 'styleguideHtml', 'copyStyleguideAssets', done);
+    sequence('cleanStyleguide', 'styleguideSass', 'styleguideHtml', 'copyHtmlTemplates', 'copyStyleguideAssets', done);
 });
 
 
