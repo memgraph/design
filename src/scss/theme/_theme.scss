@@ -74,7 +74,9 @@ blockquote {
     max-width: 460px;
     bottom: 2rem;
     margin-bottom: 0;
-    right: 2rem;
+    right: -100%;
+    -webkit-animation: slide-in-right 0.5s forwards;
+    animation: slide-in-right 0.5s forwards;
     .button.clear {
       padding: 0;
     }

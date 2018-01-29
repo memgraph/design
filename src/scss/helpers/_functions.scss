@@ -89,3 +89,13 @@
   animation-name: fadein;
   animation-duration: 0.2s;
 }
+
+
+//  Slide-in-right - for callouts!
+@-webkit-keyframes slide-in-right {
+  100% { right: 2rem; }
+}
+
+@keyframes slide-in-right {
+  100% { right: 2rem; }
+}
