@@ -11,7 +11,7 @@
   top: 0;
   width: 320px;
   transform: translateX(-100%);
-  transition: transform ease .25s;
+  @include transition(transform);
   border-radius: 0;
   z-index: 1;
   &.is-active {
@@ -28,6 +28,7 @@
     padding-bottom: 15px;
     &.is-active {
       background-color: #f6f6f6;
+      border-bottom: 1px solid $brand-silver;
       background-image: linear-gradient(-45deg, #f6f6f6 0%, $brand-white 100%);
       position: relative;
       &:after {
@@ -39,10 +40,20 @@
         height: 100%;
         top: 0;
         right: -20px;
+        box-sizing: content-box;
+        margin-top: -1px;
+        border-top: 1px solid $brand-silver;
+        border-bottom: 1px solid $brand-silver;
+      }
+      &:first-child {
+        border-top: 1px solid $brand-silver;
       }
     }
     &:not(:last-child) {
-      border-bottom: 1px solid #E6E6E6;
+      border-bottom: 1px solid $brand-silver;
+    }
+    h6 {
+      margin-bottom: 0;
     }
     p {
       color: $brand-gray;
@@ -57,17 +68,17 @@
   // Offset left for sub-off-panel - z-index to slide under main off-panel
   &.off-panel-sub {
     z-index: 0;
-    transition: transform ease .5s;
+    @include transition(transform, ease, .5s);
     &.is-active {
       transform: translateX(100%);
-      transition: transform ease .25s;
+      @include transition(transform);
     }
   }
 }
 
 // Main page content
 .off-panel-main {
-  transition: margin-left ease .25s;
+  @include transition(margin-left);
   padding-top: 60px; // top padding to escape overlap from off-panel-button
 }
 
@@ -82,7 +93,7 @@
   @include gradient-auxiliary;
   @include box-shadow();
   cursor: pointer;
-  transition: left ease .25s;
+  @include transition(left);
   outline: none;
   &:hover {
     opacity: .75;
@@ -101,6 +112,12 @@
   border-right: 1px solid $brand-silver;
 }
 
+
+// Side menu search
+.search-item {
+  border-bottom: 1px solid $brand-silver;
+  padding: 0.5rem;
+}
 
 // Off panel footer
 .card-section + .card-divider {

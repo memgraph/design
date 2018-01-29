@@ -6154,7 +6154,7 @@ input.form-control, select.form-control {
       border-bottom: 1px solid #e6e6e6; }
 
 .sticky-container {
-  z-index: 1; }
+  z-index: 2; }
 
 .menu a.top-bar-title {
   padding: 0.5rem; }
@@ -6174,12 +6174,13 @@ input.form-control, select.form-control {
   position: fixed;
   overflow-y: auto;
   height: 100%;
-  padding-top: 80px;
+  padding-top: 60px;
   top: 0;
   width: 320px;
   transform: translateX(-100%);
   transition: transform ease .25s;
-  border-radius: 0; }
+  border-radius: 0;
+  z-index: 1; }
   .card.off-panel.is-active {
     transform: translateX(0); }
   .card.off-panel .menu li {
@@ -6210,6 +6211,12 @@ input.form-control, select.form-control {
       font-family: "Roboto", Arial, sans-serif;
       font-weight: 400;
       margin-bottom: 0; }
+  .card.off-panel.off-panel-sub {
+    z-index: 0;
+    transition: transform ease .5s; }
+    .card.off-panel.off-panel-sub.is-active {
+      transform: translateX(100%);
+      transition: transform ease .25s; }
 
 .off-panel-main {
   transition: margin-left ease .25s;
@@ -6249,9 +6256,13 @@ input.form-control, select.form-control {
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
   display: block;
   padding: 0; }
-  .card-section + .card-divider > span:first-child {
-    display: inline-block;
-    padding: 10px 0 0 20px;
-    font-size: .75rem; }
-  .card-section + .card-divider > span:last-child {
-    border-left: 1px solid #e6e6e6; }
+  .card-section + .card-divider .footer-stats {
+    padding: 1.25rem; }
+  .card-section + .card-divider .footer-copy {
+    border-top: 1px solid #e6e6e6; }
+    .card-section + .card-divider .footer-copy > span:first-child {
+      display: inline-block;
+      padding: .85rem 0 0 1.25rem;
+      font-size: .7rem; }
+    .card-section + .card-divider .footer-copy > span:last-child {
+      border-left: 1px solid #e6e6e6; }

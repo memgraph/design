@@ -37,6 +37,23 @@
 
 <!-- Side nav -->
 <div class="off-panel is-active card" id="off-panel" data-toggler=".is-active">
+    <div class="card-section search-item">
+        <div class="input-group">
+            <input class="input-group-field" type="text" placeholder="Search">
+            <div class="input-group-button">
+                <button type="button" class="button secondary clear">
+                    <span class="icon-search"></span>
+                </button>
+            </div>
+            <div class="input-group-button hide">
+                <button type="button" class="button secondary clear">
+                    <span class="icon-cancel"></span>
+                </button>
+            </div>
+        </div>
+
+        <!--<input class="form-control" type="text" placeholder="Search">-->
+    </div>
     <div class="card-section">
         <label class="help-text text-uppercase">Settings</label>
 
@@ -193,10 +210,26 @@
             <span class="icon-cancel"></span>
         </button>
 
+        <label class="help-text text-uppercase">Latest Tweets</label>
 
-        OMG, here's the content for the subnav!
-
-
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="media-object">
+                    <div class="media-object-section">
+                        <img class="thumbnail" src="https://placeimg.com/30/30/people" alt="User" width="30" height="30">
+                    </div>
+                    <div class="media-object-section main-section">
+                        <a href="#" class="help-text" target="_blank">@userhandle</a>
+                    </div>
+                    <div class="media-object-section help-text no-margin">
+                        Jan 20
+                    </div>
+                </div>
+                <div class="help-text">
+                    LIVE on <a href="#">#Periscope</a>: Idea to insight in 7 minutes - live from Singapore <a href="#">#StrataHadoop</a> <a href="#">https://t.co/t5XU5OheGU</a>
+                </div>
+            </li>
+        </ul>
 
     </div>
 </div>
@@ -209,13 +242,43 @@
             <span class="icon-cancel"></span>
         </button>
 
-        OMG, here's the content for the second subnav!
+        <label class="help-text text-uppercase">Attendee List</label>
 
-
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="media-object">
+                    <div class="media-object-section">
+                        <img class="thumbnail" src="https://placeimg.com/30/30/people" alt="User" width="30" height="30">
+                    </div>
+                    <div class="media-object-section main-section">
+                       <p class="text-condensed">
+                           <strong>Name Surname</strong>
+                            <span class="help-text">
+                               @userhandle
+                           </span>
+                       </p>
+                        <p class="help-text">
+                            Joined on Jan 20
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
 
     </div>
 </div>
 
+<!-- Callout for real-time notifications -->
+<div class="callout callout-fixed" data-closable>
+    <h6>New tweet from @userhandle</h6>
+    <p class="no-margin">#StrataHadoop World #Singapore, Dec 1-3: use...
+    <button class="button secondary clear">See more</button>
+    </p>
+
+    <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
 
 <!-- modal for intro -->
 <div class="reveal fadein" id="intro-modal" data-reveal>
@@ -224,7 +287,7 @@
     </button>
 
     <div id="step1" class="card-section" data-toggler=".hide">
-        <img alt="" src="assets/img/card-fraud.svg" class="float-center" width="96" height="96">
+        <!--<img alt="" src="assets/img/card-fraud.svg" class="float-center" width="96" height="96">-->
         <br>
         <h4 class="text-center">Fraud Detection Demo</h4>
         <p class="text-center">

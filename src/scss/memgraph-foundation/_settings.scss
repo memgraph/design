@@ -55,7 +55,7 @@ $header-font-family: 'Encode Sans', Arial, sans-serif;
 $font-family-monospace: 'Roboto Mono', Consolas, monospace;
 $header-lineheight: 1.2;
 
-$small-font-size: 0.8rem !default;
+$small-font-size: 0.85rem !default;
 $header-small-font-color: $brand-primary;
 $paragraph-lineheight: 1.5;
 
@@ -126,7 +126,7 @@ $dropdown-border: 1px solid $lighter-gray;
 
 $fieldset-border: 1px solid $lighter-gray;
 $helptext-color: $medium-gray;
-$helptext-font-size: rem-calc(14);
+$helptext-font-size: 0.9rem;
 $helptext-font-style: normal;
 $input-prefix-color: $dark-gray;
 $input-prefix-background: $lighter-gray;
@@ -230,4 +230,19 @@ $topbar-title-spacing: 0 0 0 0;
 
 
 // Other
-$contrast-warnings: false;
+$contrast-warnings: false; // This is for disabling console color contrast feedback when building css
+
+
+// Custom components
+// List group
+$list-group-background: $white;
+$list-group-active-background: $brand-primary;
+$list-group-hover-background: $lighter-gray;
+$list-group-disabled-background: $white;
+$list-group-font-disabled-color: $dark-gray;
+$list-group-font-active-color: $white;
+$list-group-border: 1px solid $light-gray;
+$list-group-active-border: 1px solid $brand-primary;
+$list-group-border-radius: 0;
+$list-group-padding: 1rem 0;
+$list-group-margin: $global-margin;

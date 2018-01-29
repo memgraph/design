@@ -141,3 +141,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+// Default transition
+@mixin transition ($property: all, $ease: ease, $duration: 0.25s) {
+  transition: $property $ease $duration;
+}
