@@ -19,13 +19,13 @@ Font license info
    Homepage:  http://somerandomdude.com/work/iconic/
 
 
-## Entypo
+## Maki
 
-   Copyright (C) 2012 by Daniel Bruce
+   Copyright (C) Mapbox, LCC
 
-   Author:    Daniel Bruce
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://www.entypo.com
+   Author:    Mapbox
+   License:   BSD (https://github.com/mapbox/maki/blob/gh-pages/LICENSE.txt)
+   Homepage:  http://mapbox.com/maki/
 
 
 ## Font Awesome
@@ -35,5 +35,14 @@ Font license info
    Author:    Dave Gandy
    License:   SIL ()
    Homepage:  http://fortawesome.github.com/Font-Awesome/
+
+
+## Entypo
+
+   Copyright (C) 2012 by Daniel Bruce
+
+   Author:    Daniel Bruce
+   License:   SIL (http://scripts.sil.org/OFL)
+   Homepage:  http://www.entypo.com
 
 

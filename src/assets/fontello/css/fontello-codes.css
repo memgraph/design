@@ -29,6 +29,8 @@
 .icon-spread:before { content: '\e81b'; } /* '' */
 .icon-target:before { content: '\e81c'; } /* '' */
 .icon-bars:before { content: '\e81d'; } /* '' */
+.icon-commerical-building:before { content: '\e81e'; } /* '' */
+.icon-book-sm:before { content: '\e81f'; } /* '' */
 .icon-chart-pie:before { content: '\e84a'; } /* '' */
 .icon-chart-line:before { content: '\e84b'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
@@ -44,9 +46,12 @@
 .icon-twitter:before { content: '\f058'; } /* '' */
 .icon-linkedin:before { content: '\f05c'; } /* '' */
 .icon-user:before { content: '\f061'; } /* '' */
+.icon-users:before { content: '\f064'; } /* '' */
 .icon-ok-circled:before { content: '\f06d'; } /* '' */
 .icon-cancel-circled:before { content: '\f06e'; } /* '' */
 .icon-info-circled:before { content: '\f085'; } /* '' */
+.icon-code-sm:before { content: '\f121'; } /* '' */
+.icon-fork:before { content: '\f126'; } /* '' */
 .icon-slack:before { content: '\f198'; } /* '' */
 .icon-comment:before { content: '\f4ac'; } /* '' */
 .icon-search:before { content: '\f50d'; } /* '' */
