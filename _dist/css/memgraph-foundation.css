@@ -6331,7 +6331,8 @@ input.form-control, select.form-control {
   .card-section + .card-divider .footer-stats {
     padding: 1.25rem; }
   .card-section + .card-divider .footer-copy {
-    border-top: 1px solid #e6e6e6; }
+    border-top: 1px solid #e6e6e6;
+    margin-top: -1px; }
     .card-section + .card-divider .footer-copy > span:first-child {
       display: inline-block;
       padding: .85rem 0 0 1.25rem;

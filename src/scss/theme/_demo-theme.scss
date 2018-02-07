@@ -130,6 +130,7 @@
   }
   .footer-copy {
     border-top: 1px solid $brand-silver;
+    margin-top: -1px;
     & > span:first-child {
       display: inline-block;
       padding: .85rem 0 0 1.25rem;
