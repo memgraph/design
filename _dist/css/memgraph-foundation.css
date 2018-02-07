@@ -6339,3 +6339,17 @@ input.form-control, select.form-control {
       font-size: .7rem; }
     .card-section + .card-divider .footer-copy > span:last-child {
       border-left: 1px solid #e6e6e6; }
+
+.tooltip-lg :after {
+  top: 100%;
+  left: 50%;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border: solid transparent;
+  border-color: rgba(255, 255, 255, 0);
+  border-top-color: #ffffff;
+  border-width: 8px;
+  margin-left: -8px; }
