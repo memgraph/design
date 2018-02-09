@@ -3694,12 +3694,19 @@ a.button:hover, a.button:focus {
     clear: both; }
   .button-group .button {
     margin: 0;
-    margin-right: 1px;
-    margin-bottom: 1px;
+    margin-right: 0;
+    margin-bottom: 0;
     font-size: 0.9rem;
-    flex: 0 0 auto; }
+    flex: 0 0 auto;
+    border-radius: 0; }
     .button-group .button:last-child {
       margin-right: 0; }
+    .button-group .button:first-child {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px; }
+    .button-group .button:last-child {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px; }
   .button-group.tiny .button {
     font-size: 0.6rem; }
   .button-group.small .button {
@@ -3741,17 +3748,41 @@ a.button:hover, a.button:focus {
   .button-group.stacked, .button-group.stacked-for-small, .button-group.stacked-for-medium {
     flex-wrap: wrap; }
     .button-group.stacked .button, .button-group.stacked-for-small .button, .button-group.stacked-for-medium .button {
-      flex: 0 0 100%; }
+      flex: 0 0 100%;
+      border-radius: 0; }
       .button-group.stacked .button:last-child, .button-group.stacked-for-small .button:last-child, .button-group.stacked-for-medium .button:last-child {
         margin-bottom: 0; }
+      .button-group.stacked .button:first-child, .button-group.stacked-for-small .button:first-child, .button-group.stacked-for-medium .button:first-child {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px; }
+      .button-group.stacked .button:last-child, .button-group.stacked-for-small .button:last-child, .button-group.stacked-for-medium .button:last-child {
+        margin-bottom: 0;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px; }
   @media print, screen and (min-width: 40em) {
     .button-group.stacked-for-small .button {
       flex: 1 1 0px;
-      margin-bottom: 0; } }
+      margin-bottom: 0; }
+      .button-group.stacked-for-small .button:first-child {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 6px; }
+      .button-group.stacked-for-small .button:last-child {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 0; } }
   @media print, screen and (min-width: 64em) {
     .button-group.stacked-for-medium .button {
       flex: 1 1 0px;
-      margin-bottom: 0; } }
+      margin-bottom: 0; }
+      .button-group.stacked-for-medium .button:first-child {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 6px; }
+      .button-group.stacked-for-medium .button:last-child {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 0; } }
   @media screen and (max-width: 39.9375em) {
     .button-group.stacked-for-small.expanded {
       display: block; }
@@ -6340,7 +6371,7 @@ input.form-control, select.form-control {
     .card-section + .card-divider .footer-copy > span:last-child {
       border-left: 1px solid #e6e6e6; }
 
-.tooltip-lg :after {
+.tooltip-lg:after {
   top: 100%;
   left: 50%;
   content: " ";
@@ -6353,3 +6384,24 @@ input.form-control, select.form-control {
   border-top-color: #ffffff;
   border-width: 8px;
   margin-left: -8px; }
+
+ul.scale-list {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6; }
+  ul.scale-list .scale-list-item {
+    padding: 0 !important; }
+    ul.scale-list .scale-list-item p {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      width: 100%;
+      overflow: hidden; }
+      ul.scale-list .scale-list-item p span {
+        display: inline-block;
+        padding: 0.5rem;
+        margin-right: 0.5rem;
+        width: 60px;
+        text-align: center; }
+
+.fixed-footer {
+  position: sticky;
+  bottom: 0; }
