@@ -92,6 +92,12 @@ $button-background-hover-lightness: 15%;
 $button-color-alt: $white;
 $button-responsive-expanded: true;
 
+// 12. Button Group
+// ----------------
+
+$buttongroup-spacing: 0;
+$buttongroup-radius-on-each: false;
+
 // 13. Callout
 // -----------
 
@@ -152,7 +158,6 @@ $label-color-alt: $white;
 
 $menu-margin: 0;
 $menu-simple-margin: 1rem;
-
 
 // 25. Off-canvas
 // --------------

@@ -160,3 +160,31 @@
     margin-left: -8px;
   }
 }
+
+
+// Scale list
+ul.scale-list {
+  border-top: 1px solid $brand-silver;
+  border-bottom: 1px solid $brand-silver;
+  .scale-list-item {
+    padding: 0 !important;
+    p {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      width: 100%;
+      overflow: hidden;
+      span {
+        display: inline-block;
+        padding: 0.5rem;
+        margin-right: 0.5rem;
+        width: 60px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.fixed-footer {
+  position: sticky;
+  bottom: 0;
+}
