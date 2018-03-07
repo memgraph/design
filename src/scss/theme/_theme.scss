@@ -23,6 +23,14 @@ blockquote {
 }
 
 
+.text-muted {
+  color: $medium-gray;
+}
+
+.text-primary {
+  color: $brand-primary;
+}
+
 // Gradients
 
 .gradient-primary {
@@ -50,13 +58,17 @@ blockquote {
 
 
 // Tabs
-
 .tabs-content,
 .tabs,
 .dropdown-pane {
   @include box-shadow();
 }
 
+
+// Thumbnail
+.thumbnail {
+  overflow: hidden;
+}
 
 // Callout
 .callout {
@@ -160,10 +172,6 @@ input.form-control, select.form-control {
 
 .text-uppercase {
   text-transform: uppercase;
-}
-
-.text-primary {
-  color: $brand-primary;
 }
 
 .no-margin {

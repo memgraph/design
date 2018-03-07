@@ -3,6 +3,7 @@
 var gulp            = require('gulp');
 var sherpa          = require('style-sherpa');
 var sass            = require('gulp-sass');
+var minify          = require('gulp-minify-css');
 var sequence        = require('run-sequence');
 var del             = require('del');
 
@@ -28,8 +29,9 @@ gulp.task('copyMotionUI', function() {
 
 // Generate styles
 gulp.task('sass', function() {
-    return gulp.src('src/scss/memgraph-foundation.scss')
+    return gulp.src(['src/scss/memgraph-foundation.scss', 'src/scss/memgraph-foundation-app.scss', 'src/scss/memgraph-foundation-web.scss'])
         .pipe(sass())
+        .pipe(minify())
         .pipe(gulp.dest('_dist/css'))
 });
 
@@ -44,21 +46,11 @@ gulp.task('default', function(done) {
     sequence('cleanDist', 'sass', 'copyAssets', done);
 });
 
-
-
-
-
-
-
-
-
-
-
 // StyleGuide related tasks
 
 // Clean _styleguide
 gulp.task('cleanStyleguide', function(done) {
-    del('_styleguide');
+    del('_styleguide/*');
     done();
 });
 
@@ -72,8 +64,9 @@ gulp.task('styleguideHtml', function() {
 
 // Build css for Styleguide
 gulp.task('styleguideSass', function() {
-    return gulp.src('src/scss/memgraph-foundation.scss')
+    return gulp.src(['src/scss/memgraph-foundation.scss', 'src/scss/memgraph-foundation-app.scss', 'src/scss/memgraph-foundation-web.scss'])
         .pipe(sass())
+        .pipe(minify())
         .pipe(gulp.dest('_styleguide/css'))
 });
 
