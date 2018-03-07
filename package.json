@@ -14,7 +14,6 @@
     "del": "^3.0.0"
   },
   "dependencies": {
-    "gulp-minify": "^2.1.0",
     "gulp-minify-css": "^1.2.4"
   }
 }

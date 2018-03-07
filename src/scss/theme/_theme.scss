@@ -121,11 +121,6 @@ table thead {
   }
 }
 
-// Title bar
-.title-bar {
-  @include box-shadow();
-}
-
 .menu .menu-text {
   font-family: $header-font-family;
   padding: 1.25rem;

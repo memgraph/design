@@ -35,9 +35,9 @@ _dist
 </pre>
 
 There are three compiled css files, so use just one of them based on your needs:
-1.`memgraph-foundation.css` can used as a core stylesheet in general-purpose projects.
-2.`memgraph-foundation-app.css` can used as a core stylesheet in apps and demos.
-3.`memgraph-foundation-web.css` can used in web projects (landing pages and similar).
+* `memgraph-foundation.css` can used as a core stylesheet in general-purpose projects.
+* `memgraph-foundation-app.css` can used as a core stylesheet in apps and demos.
+* `memgraph-foundation-web.css` can used in web projects (landing pages and similar).
 
 # Usage
 ## Simple usage

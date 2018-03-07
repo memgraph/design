@@ -1,6 +1,10 @@
 // Memgraph Foundation styles - Custom styles for demo or application purposes
 
 
+// Title bar
+.title-bar {
+  @include box-shadow();
+}
 
 // Off panel
 .card.off-panel {
