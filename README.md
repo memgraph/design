@@ -1,4 +1,4 @@
-# Memgraph Design
+a# Memgraph Design
 
 This is a repo containing brand assets for Memgraph:
 - Customized ZURB Foundation instance + motion-ui library
@@ -17,7 +17,7 @@ Additionally, there's an option to generate the Styleguide from the available st
 The compiled styles and ready-to-use assets are in the `_dist` folder, so you can easily reference them in your project. The structure of the folder is as follows:
 <pre>
 _dist
-|-assets
+|-assets  
 |  |-fontello
 |  |  |-css
 |  |  |-font
@@ -77,3 +77,7 @@ _styleguide
 |-demo-general.html
  </pre>
   
+  
+# LaTeX Document Templates
+
+In `/latex` folder you can find on-brand document templates used so far for presentations or other types of documents.
