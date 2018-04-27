@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pandoc example.md \
+    -o example.pdf --from markdown --template documentation-template.latex \
+    --listings --toc
