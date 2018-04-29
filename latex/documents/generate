@@ -1,5 +1,6 @@
 #!/bin/bash
 
-pandoc example.md \
+pandoc --verbose \
+    example.md \
     -o example.pdf --from markdown --template documentation-template.latex \
     --listings --toc
