@@ -34,17 +34,47 @@ adipiscing elit.
 
 ## Heading 2
 
-TODO
+Nulla facilisi. In varius suscipit risus ac dictum. Aenean gravida euismod
+enim, eget fermentum sem viverra in. Sed id orci arcu. Donec vel est metus.
+Etiam bibendum feugiat elit. Praesent eu sodales nulla. Quisque gravida congue
+porta. Sed ac dui mattis, suscipit sapien eget, rutrum urna. Nullam non pretium
+dui. Praesent in blandit est.
 
 ### Heading 3
 
-TODO
+Praesent a lorem turpis. Pellentesque sollicitudin suscipit nunc a maximus.
+Proin egestas dolor sapien, a egestas quam consectetur accumsan. Mauris feugiat
+nisi est, et rhoncus dui ultricies a. Pellentesque aliquam sodales elit, nec
+posuere sem faucibus eu. Duis posuere lectus erat, eu volutpat purus tempus
+sed. Fusce non urna vel neque iaculis luctus at nec velit. Praesent et
+fringilla ipsum. Vestibulum accumsan at magna eu fringilla. Duis scelerisque
+neque ac massa hendrerit molestie. Quisque pulvinar odio non pharetra
+porttitor. Quisque dignissim mauris ac neque scelerisque, et facilisis dolor
+commodo.
+
+# Lists
+
+List 1
+
+* Item 1
+* Item 2
+* Very Long Item 3 - Donec porta ultricies enim, consequat pretium odio fringilla ut. Sed pulvinar purus ut tempor auctor. Ut ultricies consectetur mi. In hac habitasse platea dictumst. Mauris bibendum lacinia diam vehicula eleifend. Pellentesque id tincidunt libero. Nunc ut felis ac lacus sodales eleifend. Proin aliquam magna id erat venenatis, ut feugiat metus dignissim. Proin tempor nulla in cursus ornare. Ut aliquam placerat lorem vulputate ornare. Suspendisse massa lorem, auctor in lorem ut, malesuada ultricies lacus. Nunc et eros in orci bibendum posuere elementum ac odio. Suspendisse mattis volutpat sem vitae molestie.
 
 # Tables
 
-TODO
+ Type | Description
+---------------|--------------------------------------------------
+ `Null`        | Denotes that the property has no value. This is the same as if the property does not exist.
+ `String`      | A character string, i.e. text.
+ `Boolean`     | A boolean value, either `true` or `false`.
+ Integer       | An integer number.
+ `Float`       | A floating-point number, i.e. a real number.
+ `List`        | A list containing any number of property values of any supported type. It can be used to store multiple values under a single property name.
+ `Map`         | A mapping of string keys to values of any supported type.
 
 # Code
+
+## openCypher
 
 openCypher is default. `listings` package doesn't support custom languages.
 The only reasonable workaround is to set openCypher as a default language
@@ -98,4 +128,125 @@ MATCH (a {id: 723})-[*bfs..10 (e, n | e.x > 12 AND n.y < 3)]-() RETURN *
 ```
 MATCH (a {id: 1})-[le *wShortest 10 (e, n | e.w) total_weight]-(b {id: 2})
 RETURN *
+```
+
+## Enumerated Steps
+
+1) Step 1
+```
+MATCH (n) RETURN n;
+```
+
+2) Step 2
+```
+MATCH (n) RETURN n;
+```
+
+## C++
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n1, n2;
+
+    cout << "Enter two numbers: ";
+    cin >> n1 >> n2;
+
+    while(n1 != n2) {
+        if(n1 > n2)
+            n1 -= n2;
+        else
+            n2 -= n1;
+    }
+
+    cout << "HCF = " << n1;
+    return 0;
+}
+```
+
+## Python
+
+```python
+from sys import exit
+
+for i in range(5):
+    print(i)
+
+exit(0)
+```
+
+## C\#
+
+```csh
+using System.Diagnostics;
+using MathNet.Numerics.LinearAlgebra.Double;
+using MathNet.Numerics.LinearAlgebra.Double.Factorization;
+
+namespace App
+{
+    public partial class Form_Main : Form
+    {
+        private void saveObjectToTemp()
+        {
+            // path to the tempfolder of this application.
+            string path = Path.GetTempPath() + @"\temperatureapp";
+            // check if the folder "temperatureapp" exist in the local temp folder (if not create it)
+            bool folderExist = System.IO.Directory.Exists(path);
+            if (!folderExist)
+                System.IO.Directory.CreateDirectory(path);
+        }
+
+        private void test()
+        {
+            var names = new List<string>() { "John", "Tom", "Peter" };
+            foreach (string name in names)
+            {
+                Console.WriteLine(name);
+            }
+        }
+    }
+}
+```
+
+## Java
+
+```java
+import java.util.*;
+
+public class Example {
+    public static void main(String[] args) {
+        for (int i = 0; i < 5; ++i) {
+            System.out.println(i);
+        }
+    }
+}
+```
+
+## JavaScript
+
+```javascript
+function myFunction() {
+    var x = "", i;
+    for (i=0; i<5; i++) {
+        x = x + "The number is " + i + "<br>";
+    }
+    document.getElementById("demo").innerHTML = x;
+}
+```
+
+## Bash
+
+```bash
+function fact {
+  result=1
+  n=$1
+  while [ "$n" -ge 1 ]
+  do
+    result=$(expr $n \* $result)
+    n=$(expr $n - 1)
+  done
+  echo $result
+}
 ```

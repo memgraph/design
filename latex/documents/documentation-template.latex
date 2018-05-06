@@ -582,6 +582,66 @@ $if(listings)$
   showstringspaces = false
 }
 \lstset{style=opencypher_listing_style}
+%
+% C++ listing
+%
+% TODO
+% -----------
+%
+% Python listing
+%
+% TODO
+% -----------
+%
+% Java listing
+%
+% TODO
+% -----------
+%
+% C# listing
+%
+\definecolor{listing-csh-default}{HTML}{000000}
+\definecolor{listing-csh-background}{rgb}{1,1,1}
+\definecolor{listing-csh-bluekeywords}{rgb}{0,0,1}
+\definecolor{listing-csh-greencomments}{rgb}{0,0.5,0}
+\definecolor{listing-csh-redstrings}{rgb}{0.64,0.08,0.08}
+\definecolor{listing-csh-xmlcomments}{rgb}{0.5,0.5,0.5}
+\definecolor{listing-csh-types}{rgb}{0.17,0.57,0.68}
+\lstdefinelanguage{csh}{
+  basicstyle=\color{listing-csh-default}\small\ttfamily{}\linespread{1},
+  backgroundcolor = \color{listing-csh-background},
+  captionpos=b,
+  frame=single,
+  showspaces=false,
+  showtabs=false,
+  breaklines=true,
+  showstringspaces=false,
+  breakatwhitespace=true,
+  escapeinside={(*@}{@*)},
+  identifierstyle = \color{listing-csh-default},
+  morecomment = [l]{//},
+  commentstyle=\color{listing-csh-greencomments},
+  morekeywords={
+    abstract, event, new, struct, as, explicit, null, switch,
+    base, extern, object, this, bool, false, operator, throw,
+    break, finally, out, true, byte, fixed, override, try,
+    case, float, params, typeof, catch, for, private, uint,
+    char, foreach, protected, ulong, checked, goto, public, unchecked,
+    class, if, readonly, unsafe, const, implicit, ref, ushort,
+    continue, in, return, using, decimal, int, sbyte, virtual,
+    default, interface, sealed, volatile, delegate, internal, short, void,
+    do, is, sizeof, while, double, lock, stackalloc,
+    else, long, static, enum, namespace, string, var
+  },
+  keywordstyle=\color{listing-csh-bluekeywords},
+  morestring=[b]",
+  stringstyle=\color{listing-csh-redstrings},
+}
+%
+% JavaScript listing
+%
+% TODO
+% -----------
 $endif$
 
 %
