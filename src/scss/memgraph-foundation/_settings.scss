@@ -16,7 +16,7 @@ $foundation-palette: (
   secondary: $brand-secondary,
   success: $brand-success,
   warning: $brand-warning,
-  alert: $brand-pink,
+  alert: $brand-red,
 );
 
 $button-palette: (
@@ -24,7 +24,7 @@ $button-palette: (
     secondary: $brand-primary,
     success: $brand-success,
     warning: $brand-warning,
-    alert: $brand-pink,
+    alert: $brand-red,
 );
 
 $black: $brand-black;
@@ -127,9 +127,18 @@ $closebutton-color-hover: $dark-gray;
 $dropdown-background: $white;
 $dropdown-border: 1px solid $lighter-gray;
 
+
+// 18. Dropdown Menu
+// -----------------
+$dropdownmenu-arrows: false;
+$dropdownmenu-min-width: 240px;
+$dropdownmenu-padding: $global-menu-padding/2;
+$dropdownmenu-border: 1px solid $lighter-gray;
+$dropdown-menu-item-color-active: $brand-red;
+$dropdown-menu-item-background-active: transparent;
+
 // 20. Forms
 // ---------
-
 $fieldset-border: 1px solid $lighter-gray;
 $helptext-color: $medium-gray;
 $helptext-font-size: 0.9rem;
