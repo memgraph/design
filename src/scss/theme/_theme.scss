@@ -1,9 +1,5 @@
 // Memgraph Foundation styles - General custom style overrides that cannot be set with updating Foundation's settings.scss
 
-h4, h5, h6 {
-  font-weight: bold;
-}
-
 // Type styles
 
 .lead {
@@ -33,6 +29,18 @@ code, kbd, pre, samp {
 
 .text-primary {
   color: $brand-primary;
+}
+
+// Buttons
+.button:not(.clear) {
+  box-shadow: 0 0 6px rgba(0,0,0,0.15);
+}
+
+.button.success {
+  color: $brand-primary;
+  &:hover, &:focus {
+    color: $brand-primary;
+  }
 }
 
 // Gradients

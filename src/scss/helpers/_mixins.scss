@@ -100,19 +100,19 @@
 
 // Brand gradients
 @mixin gradient-primary {
-  @include linear-gradient(136deg, $brand-warning 0%, $brand-primary 33%, $brand-secondary 100%);
+  @include linear-gradient(136deg, $brand-warning 0%, $brand-orange 33%, $brand-secondary 100%);
 }
 
 @mixin gradient-dark {
-  @include linear-gradient(136deg, $brand-red 0%, $brand-secondary 100%);
+  @include linear-gradient(136deg, $brand-primary 0%, $brand-secondary 100%);
 }
 
 @mixin gradient-punch {
-  @include linear-gradient(136deg, $brand-pink 0%, $brand-red 33%, $brand-warning 100%);
+  @include linear-gradient(136deg, $brand-pink 0%, $brand-primary 33%, $brand-warning 100%);
 }
 
 @mixin gradient-light {
-  @include linear-gradient(136deg, $brand-warning 0%, $brand-primary 100%);
+  @include linear-gradient(136deg, $brand-warning 0%, $brand-orange 100%);
 }
 
 @mixin gradient-auxiliary {
