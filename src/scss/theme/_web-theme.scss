@@ -87,17 +87,3 @@ button {
     }
   }
 }
-
-@media (max-width: 768px) {
-  .card.cap-top {
-    padding: 30px 20px 40px;
-  }
-}
-
-
-// Page footer component
-footer {
-  nav {
-    @include grid-column;
-  }
-}
