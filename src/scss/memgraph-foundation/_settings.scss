@@ -16,15 +16,15 @@ $foundation-palette: (
   secondary: $brand-secondary,
   success: $brand-success,
   warning: $brand-warning,
-  alert: $brand-pink,
+  alert: $brand-orange,
 );
 
 $button-palette: (
-    primary: $brand-black,
-    secondary: $brand-primary,
-    success: $brand-success,
+    primary: $brand-primary,
+    secondary: $brand-black,
+    success: $brand-white,
     warning: $brand-warning,
-    alert: $brand-pink,
+    alert: $brand-orange,
 );
 
 $black: $brand-black;
@@ -52,7 +52,7 @@ $grid-column-gutter: (
 // ------------------
 
 $header-font-family: 'Encode Sans', Arial, sans-serif;
-$font-family-monospace: 'Roboto Mono', Consolas, monospace;
+$font-family-monospace: 'PT Mono', Consolas, Curier, monospace;
 $header-lineheight: 1.2;
 
 $small-font-size: 0.85rem !default;
@@ -63,7 +63,7 @@ $code-color: darken($brand-pink, 30%);
 $code-background: lighten($brand-pink, 45%);
 $code-border: lighten($brand-pink, 27%);
 
-$anchor-color: $brand-secondary;
+$anchor-color: $brand-primary;
 $anchor-text-decoration-hover: none;
 $hr-border: 1px solid $light-gray;
 $hr-margin: 2rem auto;
@@ -75,6 +75,7 @@ $cite-color: $brand-primary;
 
 $abbr-underline: 1px dotted $light-gray;
 $lead-lineheight: 1.5;
+$lead-font-size: $global-font-size * 1.2;
 
 // 9. Badge
 // --------
@@ -88,7 +89,8 @@ $button-font-family: 'Roboto 700', sans-serif;
 $button-padding: 0.85em 1em;
 $button-margin: 0;
 $button-background: $black;
-$button-background-hover-lightness: 15%;
+$button-background-hover-lightness: 20%;
+$button-hollow-hover-lightness: 30%;
 $button-color-alt: $white;
 $button-responsive-expanded: true;
 
@@ -106,7 +108,7 @@ $callout-background-fade: 12%;
 $callout-border: none;
 $callout-font-color: $white;
 $callout-font-color-alt: $white;
-$callout-link-tint: 0%;
+$callout-link-tint: 2%;
 
 // 14. Card
 // --------
@@ -127,9 +129,18 @@ $closebutton-color-hover: $dark-gray;
 $dropdown-background: $white;
 $dropdown-border: 1px solid $lighter-gray;
 
+
+// 18. Dropdown Menu
+// -----------------
+$dropdownmenu-arrows: false;
+$dropdownmenu-min-width: 240px;
+$dropdownmenu-padding: $global-menu-padding/2;
+$dropdownmenu-border: 1px solid $lighter-gray;
+$dropdown-menu-item-color-active: $brand-primary;
+$dropdown-menu-item-background-active: transparent;
+
 // 20. Forms
 // ---------
-
 $fieldset-border: 1px solid $lighter-gray;
 $helptext-color: $medium-gray;
 $helptext-font-size: 0.9rem;

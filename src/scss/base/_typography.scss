@@ -8,7 +8,8 @@
 @include font-face("Encode Sans 800", "../assets/fonts/Encode_Sans_Semi_Condensed/EncodeSansSemiCondensed-ExtraBold", 800, normal, ttf);
 @include font-face("Roboto", "../assets/fonts/Roboto/Roboto-Regular", 400, normal, ttf);
 @include font-face("Roboto 700", "../assets/fonts/Roboto/Roboto-Bold", 700, normal, ttf);
-@include font-face("Roboto Mono", "../assets/fonts/RobotoMono-Regular", 400, normal, ttf);
+@include font-face("PT Mono", "../assets/fonts/PTM55FT", 400, normal, ttf);
 
-$header-font-family: 'Encode Sans', Arial, sans-serif;
+$header-font-family: 'Encode Sans', Roboto, Arial, sans-serif;
 $body-font-family: 'Roboto', Arial, sans-serif;
+$monospace-font-family: 'PT Mono', Consolas, Curier, monospace;
