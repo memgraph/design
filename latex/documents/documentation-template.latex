@@ -585,12 +585,93 @@ $if(listings)$
 %
 % C++ listing
 %
-% TODO
-% -----------
+\definecolor{listing-cpp-background}{HTML}{000000}
+\definecolor{listing-cpp-default}{HTML}{A8B1BF}
+%\definecolor{listing-cpp-background}{HTML}{282B32}
+\definecolor{listing-cpp-keywords}{HTML}{D072C5}
+\definecolor{listing-cpp-comments}{HTML}{5B6371}
+\definecolor{listing-cpp-strings}{HTML}{EABE5F}
+\definecolor{listing-cpp-directives}{HTML}{EF6471}
+\lstdefinelanguage{C++}{
+  basicstyle=\color{listing-cpp-default}\small\ttfamily{}\linespread{1},
+  backgroundcolor = \color{listing-cpp-background},
+%  captionpos=b,
+%  frame=single,
+%  showspaces=false,
+%  showtabs=false,
+%  breaklines=true,
+%  showstringspaces=false,
+%  breakatwhitespace=true,
+%  identifierstyle = \color{listing-cpp-default},
+%  morecomment = [l]{//},
+%  morecomment=[s]{/*}{*/},%
+%  commentstyle=\color{listing-cpp-comments},
+%  morekeywords={
+%     alignas, alignof, char16_t, char32_t, constexpr, % C++11
+%     decltype, noexcept, nullptr, static_assert, thread_local, % C++11
+%     __attribute__, __extension__, __restrict, __restrict__, typeof,__typeof__ % GNU C++
+%     auto, break, case, char, const, continue, default, do, double, % ANSI C
+%     else, enum, extern, float, for, goto, if, int, long, register, return, % ANSI C
+%     short, signed, sizeof, static, struct, switch, typedef, union, unsigned, % ANSI C
+%     void, volatile, while, typeof, % ANSI C
+%     and, and_eq, asm, bad_cast, bad_typeid, bitand, bitor, bool, % ISO C++
+%     catch, class, compl, const_cast, delete, dynamic_cast, explicit, export, % ISO C++
+%     false, friend, inline, mutable, namespace, new,not, not_eq, operator, or, % ISO C++
+%     or_eq, private, protected, public, reinterpret_cast, static_cast, % ISO C++
+%     template, this, throw, true, try, typeid, type_info, typename, using, % ISO C++
+%     virtual, wchar_t, xor, xor_eq % ISO C++
+%  },
+%  keywordstyle=\color{listing-cpp-keywords},
+%  morestring=[b]",
+%  morestring=[b]’,
+%  stringstyle=\color{listing-cpp-strings},
+%  sensitive = true,
+%  moredelim=*[directive]\#,
+%  moredirectives={
+%    define, elif, else, endif, error, if, ifdef, ifndef, line,
+%    include, pragma, undef, warning
+%  },
+%  directivestyle=\color{listing-cpp-directives},
+}
 %
 % Python listing
 %
-% TODO
+\definecolor{listing-py-default}{HTML}{F6F6F6}
+\definecolor{listing-py-background}{HTML}{F7F7F7}
+\definecolor{listing-py-keywords}{HTML}{D072C5}
+\definecolor{listing-py-comments}{HTML}{757084}
+\definecolor{listing-py-strings}{HTML}{00AA00}
+\definecolor{listing-py-builtins}{HTML}{900090}
+\lstdefinelanguage{Python}{
+  basicstyle=\color{listing-py-default}\small\ttfamily{}\linespread{1.15},
+  backgroundcolor = \color{listing-py-background},
+  morekeywords={
+    access, and, break, class, continue, def, del, elif, else,
+    except, exec, finally, for, from, global, if, import, in, is, lambda, not,
+    or, pass, print, raise, return, try, while
+  },
+  keywordstyle=\color{listing-py-keywords},
+  morekeywords=[2]{
+    abs,all,any,basestring,bin,bool,bytearray,callable,chr,
+    classmethod,cmp,compile,complex,delattr,dict,dir,divmod,enumerate,eval,
+    execfile,file,filter,float,format,frozenset,getattr,globals,hasattr,hash,
+    help,hex,id,input,int,isinstance,issubclass,iter,len,list,locals,long,map,
+    max,memoryview,min,next,object,oct,open,ord,pow,property,range,raw_input,
+    reduce,reload,repr,reversed,round,set,setattr,slice,sorted,staticmethod,str,
+    sum,super,tuple,type,unichr,unicode,vars,xrange,zip,apply,buffer,coerce,
+    intern
+  },
+  keywordstyle={[2]\color{listing-py-builtins}},
+  sensitive=true,
+  morestring=[b]',
+  morestring=[b]",
+  stringstyle=\color{listing-py-strings},
+  morecomment=[l]\#,
+  morecomment=[s]{'''}{'''},% used for documentation text (mulitiline strings)
+  morecomment=[s]{"""}{"""},% added by Philipp Matthias Hahn
+  commentstyle=\color{listing-py-comments},
+  upquote=true,
+}
 % -----------
 %
 % Java listing
@@ -605,7 +686,6 @@ $if(listings)$
 \definecolor{listing-csh-bluekeywords}{rgb}{0,0,1}
 \definecolor{listing-csh-greencomments}{rgb}{0,0.5,0}
 \definecolor{listing-csh-redstrings}{rgb}{0.64,0.08,0.08}
-\definecolor{listing-csh-xmlcomments}{rgb}{0.5,0.5,0.5}
 \definecolor{listing-csh-types}{rgb}{0.17,0.57,0.68}
 \lstdefinelanguage{csh}{
   basicstyle=\color{listing-csh-default}\small\ttfamily{}\linespread{1},

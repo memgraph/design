@@ -171,6 +171,18 @@ int main() {
 ```python
 from sys import exit
 
+'''
+Comment 1
+Comment 1
+'''
+
+"""
+Comment 2
+Comment 2
+"""
+
+# One line comment
+
 for i in range(5):
     print(i)
 
