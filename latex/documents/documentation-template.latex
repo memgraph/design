@@ -518,6 +518,9 @@ $endif$
 %
 
 $if(listings)$
+
+% TODO: CPP and JS don't work yet fix
+
 %
 % openCypher listing
 %
@@ -582,57 +585,58 @@ $if(listings)$
   showstringspaces = false
 }
 \lstset{style=opencypher_listing_style}
+
 %
 % C++ listing
 %
-\definecolor{listing-cpp-background}{HTML}{000000}
 \definecolor{listing-cpp-default}{HTML}{A8B1BF}
-%\definecolor{listing-cpp-background}{HTML}{282B32}
-\definecolor{listing-cpp-keywords}{HTML}{D072C5}
+\definecolor{listing-cpp-background}{HTML}{282B32}
+\definecolor{listing-cpp-keywords}{HTML}{FF0000}
 \definecolor{listing-cpp-comments}{HTML}{5B6371}
 \definecolor{listing-cpp-strings}{HTML}{EABE5F}
 \definecolor{listing-cpp-directives}{HTML}{EF6471}
-\lstdefinelanguage{C++}{
+\lstdefinelanguage{C}{
   basicstyle=\color{listing-cpp-default}\small\ttfamily{}\linespread{1},
   backgroundcolor = \color{listing-cpp-background},
-%  captionpos=b,
-%  frame=single,
-%  showspaces=false,
-%  showtabs=false,
-%  breaklines=true,
-%  showstringspaces=false,
-%  breakatwhitespace=true,
-%  identifierstyle = \color{listing-cpp-default},
-%  morecomment = [l]{//},
-%  morecomment=[s]{/*}{*/},%
-%  commentstyle=\color{listing-cpp-comments},
-%  morekeywords={
-%     alignas, alignof, char16_t, char32_t, constexpr, % C++11
-%     decltype, noexcept, nullptr, static_assert, thread_local, % C++11
-%     __attribute__, __extension__, __restrict, __restrict__, typeof,__typeof__ % GNU C++
-%     auto, break, case, char, const, continue, default, do, double, % ANSI C
-%     else, enum, extern, float, for, goto, if, int, long, register, return, % ANSI C
-%     short, signed, sizeof, static, struct, switch, typedef, union, unsigned, % ANSI C
-%     void, volatile, while, typeof, % ANSI C
-%     and, and_eq, asm, bad_cast, bad_typeid, bitand, bitor, bool, % ISO C++
-%     catch, class, compl, const_cast, delete, dynamic_cast, explicit, export, % ISO C++
-%     false, friend, inline, mutable, namespace, new,not, not_eq, operator, or, % ISO C++
-%     or_eq, private, protected, public, reinterpret_cast, static_cast, % ISO C++
-%     template, this, throw, true, try, typeid, type_info, typename, using, % ISO C++
-%     virtual, wchar_t, xor, xor_eq % ISO C++
-%  },
-%  keywordstyle=\color{listing-cpp-keywords},
-%  morestring=[b]",
-%  morestring=[b]’,
-%  stringstyle=\color{listing-cpp-strings},
-%  sensitive = true,
-%  moredelim=*[directive]\#,
-%  moredirectives={
-%    define, elif, else, endif, error, if, ifdef, ifndef, line,
-%    include, pragma, undef, warning
-%  },
-%  directivestyle=\color{listing-cpp-directives},
+  captionpos=b,
+  frame=single,
+  showspaces=false,
+  showtabs=false,
+  breaklines=true,
+  showstringspaces=false,
+  breakatwhitespace=true,
+  identifierstyle = \color{listing-cpp-default},
+  morecomment = [l]{//},
+  morecomment=[s]{/*}{*/},%
+  commentstyle=\color{listing-cpp-comments},
+  morekeywords={
+     alignas, alignof, char16_t, char32_t, constexpr, % C++11
+     decltype, noexcept, nullptr, static_assert, thread_local, % C++11
+     __attribute__, __extension__, __restrict, __restrict__, typeof,__typeof__ % GNU C++
+     auto, break, case, char, const, continue, default, do, double, % ANSI C
+     else, enum, extern, float, for, goto, if, int, long, register, return, % ANSI C
+     short, signed, sizeof, static, struct, switch, typedef, union, unsigned, % ANSI C
+     void, volatile, while, typeof, % ANSI C
+     and, and_eq, asm, bad_cast, bad_typeid, bitand, bitor, bool, % ISO C++
+     catch, class, compl, const_cast, delete, dynamic_cast, explicit, export, % ISO C++
+     false, friend, inline, mutable, namespace, new,not, not_eq, operator, or, % ISO C++
+     or_eq, private, protected, public, reinterpret_cast, static_cast, % ISO C++
+     template, this, throw, true, try, typeid, type_info, typename, using, % ISO C++
+     virtual, wchar_t, xor, xor_eq % ISO C++
+  },
+  keywordstyle=\color{listing-cpp-keywords},
+  morestring=[b]",
+  morestring=[b]’,
+  stringstyle=\color{listing-cpp-strings},
+  sensitive = true,
+  moredelim=*[directive]\#,
+  moredirectives={
+    define, elif, else, endif, error, if, ifdef, ifndef, line,
+    include, pragma, undef, warning
+  },
+  directivestyle=\color{listing-cpp-directives},
 }
+
 %
 % Python listing
 %
@@ -672,12 +676,37 @@ $if(listings)$
   commentstyle=\color{listing-py-comments},
   upquote=true,
 }
-% -----------
+
 %
 % Java listing
 %
-% TODO
-% -----------
+\definecolor{listing-java-default}{HTML}{FFFFFF}
+\definecolor{listing-java-background}{HTML}{171717}
+\definecolor{listing-java-keywords}{HTML}{039EEE}
+\definecolor{listing-java-comments}{HTML}{69824F}
+\definecolor{listing-java-strings}{HTML}{ABDF85}
+\lstdefinelanguage{Java}{
+  basicstyle=\color{listing-java-default}\small\ttfamily{}\linespread{1},
+  backgroundcolor = \color{listing-java-background},
+  identifierstyle = \color{listing-java-default},
+  morekeywords={
+    abstract,boolean,break,byte,case,catch,char,class,%
+    const,continue,default,do,double,else,extends,false,final,%
+    finally,float,for,goto,if,implements,import,instanceof,int,%
+    interface,label,long,native,new,null,package,private,protected,%
+    public,return,short,static,super,switch,synchronized,this,throw,%
+    throws,transient,true,try,void,volatile,while},%
+  keywordstyle=\color{listing-java-keywords},
+  frame=single,
+  sensitive=true,
+  morecomment=[l]//,
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{listing-java-comments},
+  morestring=[b]",
+  morestring=[b]’,
+  stringstyle=\color{listing-java-strings},
+}
+
 %
 % C# listing
 %
@@ -717,11 +746,65 @@ $if(listings)$
   morestring=[b]",
   stringstyle=\color{listing-csh-redstrings},
 }
+
 %
 % JavaScript listing
 %
-% TODO
-% -----------
+\definecolor{listing-js-default}{HTML}{000000}
+\definecolor{listing-js-background}{HTML}{FFFFFF}
+\definecolor{listing-js-keywords}{rgb}{0.1, 0.57, 0.7}
+\definecolor{listing-js-comments}{rgb}{0.69, 0.31, 0.31}
+\definecolor{listing-js-strings}{rgb}{1, 0.45, 0.13}
+\lstdefinelanguage{PHP}{
+  basicstyle=\color{listing-js-default}\small\ttfamily{}\linespread{1},
+  backgroundcolor = \color{listing-js-background},
+  identifierstyle = \color{listing-csh-default},
+  morekeywords={
+    typeof, new, true, false, catch, function, return, null,
+    catch, switch, var, if, in, while, do, else, case, break},
+  keywordstyle=\color{listing-js-keywords},
+  morecomment=[s]{/*}{*/},
+  morecomment=[l]//,
+  commentstyle=\color{listing-js-comments},
+  morestring=[b]",
+  morestring=[b]',
+  stringstyle=\color{listing-js-strings},
+}
+
+%
+% Bash listing
+%
+\definecolor{listing-bash-default}{HTML}{000000}
+\definecolor{listing-bash-background}{HTML}{FFFFFF}
+\definecolor{listing-bash-keyword-system}{RGB}{94, 109, 45}
+\definecolor{listing-bash-keyword-app}{HTML}{FB6E00}
+\lstdefinelanguage{Bash}{
+  basicstyle=\color{listing-bash-default}\small\ttfamily{}\linespread{1},
+  backgroundcolor = \color{listing-bash-background},
+  identifierstyle = \color{listing-bash-default},
+  frame=single,
+  escapeinside={*@}{@*},
+  alsoletter={-,--},
+  keywords={
+    % language level
+    function, while, do, done, if,
+    % system level
+    sudo, apt-get, yum, install},
+  showstringspaces=false,
+  keywordstyle=\color{listing-bash-keyword-system},
+  % app level
+  keywords=[2]{
+    memgraph, --enable-durability
+    % TODO: add all other parameters
+  },
+  keywordstyle=[2]{\color{listing-bash-keyword-app}},
+  morecomment=[l]{//},
+  breaklines=true;
+  breakatwhitespace = true,
+  breakindent       = 0pt,
+  columns=fullflexible,
+}
+
 $endif$
 
 %

@@ -144,7 +144,7 @@ MATCH (n) RETURN n;
 
 ## C++
 
-```c++
+```C
 #include <iostream>
 using namespace std;
 
@@ -154,8 +154,8 @@ int main() {
     cout << "Enter two numbers: ";
     cin >> n1 >> n2;
 
-    while(n1 != n2) {
-        if(n1 > n2)
+    while (n1 != n2) {
+        if (n1 > n2)
             n1 -= n2;
         else
             n2 -= n1;
@@ -225,6 +225,10 @@ namespace App
 ## Java
 
 ```java
+/*
+  Java Example
+*/
+
 import java.util.*;
 
 public class Example {
@@ -232,18 +236,24 @@ public class Example {
         for (int i = 0; i < 5; ++i) {
             System.out.println(i);
         }
+        // one line comment
+        System.our.println("DONE");
     }
 }
 ```
 
 ## JavaScript
 
-```javascript
+```PHP
+/*
+comment
+*/
 function myFunction() {
     var x = "", i;
     for (i=0; i<5; i++) {
         x = x + "The number is " + i + "<br>";
     }
+    // one line comment
     document.getElementById("demo").innerHTML = x;
 }
 ```
@@ -261,4 +271,7 @@ function fact {
   done
   echo $result
 }
+
+sudo apt-get install memgraph
+./memgraph --enable-durability
 ```
