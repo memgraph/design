@@ -53,7 +53,9 @@ $grid-column-gutter: (
 
 $header-font-family: 'Encode Sans', Arial, sans-serif;
 $font-family-monospace: 'PT Mono', Consolas, Curier, monospace;
-$header-lineheight: 1.2;
+
+$header-lineheight: 1.3;
+$header-margin-bottom: 1.5rem;
 
 $small-font-size: 0.85rem !default;
 $header-small-font-color: $brand-primary;
@@ -85,8 +87,8 @@ $badge-color-alt: $white;
 // 11. Button
 // ----------
 
-$button-font-family: 'Roboto 700', sans-serif;
-$button-padding: 0.85em 1em;
+$button-font-family: 'Roboto', sans-serif;
+$button-padding: 0.8rem 1.6rem;
 $button-margin: 0;
 $button-background: $black;
 $button-background-hover-lightness: 20%;
