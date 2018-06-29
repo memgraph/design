@@ -61,9 +61,8 @@ $small-font-size: 0.85rem !default;
 $header-small-font-color: $brand-primary;
 $paragraph-lineheight: 1.5;
 
-$code-color: darken($brand-pink, 30%);
-$code-background: lighten($brand-pink, 45%);
-$code-border: lighten($brand-pink, 27%);
+$code-background: $brand-white;
+$code-border: initial;
 
 $anchor-color: $brand-primary;
 $anchor-text-decoration-hover: none;
