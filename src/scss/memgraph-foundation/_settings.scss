@@ -12,19 +12,19 @@ $global-font-size: 16px;
 $global-lineheight: 1.5;
 
 $foundation-palette: (
+  primary: $brand-black,
+  secondary: $brand-purple,
+  success: $brand-success,
+  warning: $brand-warning,
+  alert: $brand-alert,
+);
+
+$button-palette: (
   primary: $brand-primary,
   secondary: $brand-secondary,
   success: $brand-success,
   warning: $brand-warning,
-  alert: $brand-orange,
-);
-
-$button-palette: (
-    primary: $brand-primary,
-    secondary: $brand-black,
-    success: $brand-white,
-    warning: $brand-warning,
-    alert: $brand-orange,
+  alert: $brand-alert,
 );
 
 $black: $brand-black;
@@ -104,8 +104,8 @@ $buttongroup-radius-on-each: false;
 // 13. Callout
 // -----------
 
-$callout-background: $black;
-$callout-background-fade: 12%;
+$callout-background: $brand-black;
+$callout-background-fade: 10%;
 $callout-border: none;
 $callout-font-color: $white;
 $callout-font-color-alt: $white;
@@ -149,14 +149,15 @@ $helptext-font-style: normal;
 $input-prefix-color: $dark-gray;
 $input-prefix-background: $lighter-gray;
 $input-prefix-border: 1px solid $light-gray;
-$form-label-color: $dark-gray;
+$form-label-color: $brand-black;
+$form-label-color-invalid: $brand-alert;
 $select-radius: $global-radius/2;
 $input-font-family: $body-font-family;
 $input-background-disabled: $lighter-gray;
-$input-border: none;
-$input-border-focus: none;
+$input-border: 1px solid $brand-silver;
+$input-border-focus: 1px solid $brand-gray;
 $input-shadow: none;
-$input-shadow-focus: none;
+$input-shadow-focus: 0 0 3px $brand-silver;
 $input-radius: $global-radius/2;
 
 // 21. Label
@@ -198,6 +199,7 @@ $slider-fill-background: $brand-primary;
 $slider-radius: $global-radius*2;
 $slider-width-vertical: 0.25rem;
 $slider-height: 0.25rem;
+$slider-handle-background: $brand-primary;
 $slider-handle-height: 1.25rem;
 $slider-handle-width: 1.25rem;
 

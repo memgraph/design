@@ -22,7 +22,6 @@ code, kbd, pre, samp {
   font-size: $small-font-size;
 }
 
-
 .text-muted {
   color: $medium-gray;
 }
@@ -31,16 +30,16 @@ code, kbd, pre, samp {
   color: $brand-primary;
 }
 
-// Buttons
-.button:not(.clear) {
-  box-shadow: 0 0 6px rgba(0,0,0,0.15);
+.text-success {
+  color: $brand-success;
 }
 
-.button.success {
-  color: $brand-primary;
-  &:hover, &:focus {
-    color: $brand-primary;
-  }
+.text-alert {
+  color: $brand-alert;
+}
+
+.text-warning {
+  color: $brand-warning;
 }
 
 // Gradients
@@ -141,26 +140,26 @@ table thead {
 }
 
 // Form inputs
-input.form-control, select.form-control {
-  border-bottom: 1px solid $brand-silver;
-  @include transition(border-bottom-color, ease, .15s);
-  &:hover, &:focus, &:active {
-    border-bottom: 1px solid $brand-primary;
-  }
-  &[disabled] {
-    border-bottom: 1px solid $brand-silver;
-    color: $brand-gray !important;
-  }
-  &--danger {
-    border-bottom: 1px solid $brand-silver;
-    &:hover {
-      border-bottom: 1px solid $brand-silver;
-    }
-    &:focus, &:active {
-      border-bottom: 1px solid $brand-silver;
-    }
-  }
-}
+//input.form-control, select.form-control {
+//  border-bottom: 1px solid $brand-silver;
+//  @include transition(border-bottom-color, ease, .15s);
+//  &:hover, &:focus, &:active {
+//    border-bottom: 1px solid $brand-primary;
+//  }
+//  &[disabled] {
+//    border-bottom: 1px solid $brand-silver;
+//    color: $brand-gray !important;
+//  }
+//  &--danger {
+//    border-bottom: 1px solid $brand-silver;
+//    &:hover {
+//      border-bottom: 1px solid $brand-silver;
+//    }
+//    &:focus, &:active {
+//      border-bottom: 1px solid $brand-silver;
+//    }
+//  }
+//}
 
 // Sticky
 .sticky-container {
@@ -236,4 +235,17 @@ input.form-control, select.form-control {
   }
 }
 
+
+// Button add-on classes
+
+// Primary button gradient only
+.has-gradient {
+  background-image: linear-gradient(to right, $brand-orange, $brand-primary, $brand-primary);
+  background-size: 200% 100%;
+  transition: all .15s ease-in-out;
+  &:hover {
+    background-position: 100% 0;
+    @include box-shadow();
+  }
+}
 
