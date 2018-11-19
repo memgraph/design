@@ -104,6 +104,9 @@ code, kbd, pre, samp {
       padding: 0;
     }
   }
+  &.callout-full {
+    border-radius: 0;
+  }
 }
 
 // Reveal

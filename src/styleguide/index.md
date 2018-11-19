@@ -17,11 +17,29 @@ Auxillary pallette supports primary colors to ensure clear communication and con
 <h3>Primary colors</h3>
 <div class="media-object">
     <div class="media-object-section">
+        <div class="color" style="background-color:#DD2222"></div>
+    </div>
+    <div class="media-object-section">
+      $brand-red <br/>
+       #DD2222
+    </div>
+</div>
+<div class="media-object">
+    <div class="media-object-section">
         <div class="color" style="background-color:#FB6E00"></div>
     </div>
     <div class="media-object-section">
-      $brand-primary <br/>
+      $brand-orange <br/>
        #FB6E00
+    </div>
+</div>
+<div class="media-object">
+    <div class="media-object-section">
+        <div class="color" style="background-color:#FFC500"></div>
+    </div>
+    <div class="media-object-section">
+      $brand-yellow <br/>
+       #FFC500
     </div>
 </div>
 <div class="media-object">
@@ -29,8 +47,28 @@ Auxillary pallette supports primary colors to ensure clear communication and con
         <div class="color" style="background-color:#720096"></div>
     </div>
     <div class="media-object-section">
-      $brand-secondary <br/>
+      $brand-purple <br/>
        #720096
+    </div>
+</div>
+
+<h3>Secondary colors</h3>
+<div class="media-object">
+    <div class="media-object-section">
+        <div class="color" style="background-color:#1EB76D"></div>
+    </div>
+    <div class="media-object-section">
+      $brand-green <br/>
+       #1EB76D
+    </div>
+</div>
+<div class="media-object">
+    <div class="media-object-section">
+        <div class="color" style="background-color:#0677B2"></div>
+    </div>
+    <div class="media-object-section">
+      $brand-blue <br/>
+       #0677B2
     </div>
 </div>
 <div class="media-object">
@@ -40,33 +78,6 @@ Auxillary pallette supports primary colors to ensure clear communication and con
     <div class="media-object-section">
       $brand-pink <br/>
        #FF0092
-    </div>
-</div>
-<div class="media-object">
-    <div class="media-object-section">
-        <div class="color" style="background-color:#dd2222"></div>
-    </div>
-    <div class="media-object-section">
-      $brand-red <br/>
-       #dd2222
-    </div>
-</div>
-<div class="media-object">
-    <div class="media-object-section">
-        <div class="color" style="background-color:#0EB966"></div>
-    </div>
-    <div class="media-object-section">
-      $brand-success <br/>
-       #0EB966
-    </div>
-</div>
-<div class="media-object">
-    <div class="media-object-section">
-        <div class="color" style="background-color:#FFC500"></div>
-    </div>
-    <div class="media-object-section">
-      $brand-warning <br/>
-       #FFC500
     </div>
 </div>
 </div>
@@ -85,20 +96,11 @@ Auxillary pallette supports primary colors to ensure clear communication and con
 </div>
 <div class="media-object">
     <div class="media-object-section">
-        <div class="color" style="background-color:#231f20"></div>
+        <div class="color" style="background-color:#f9f9f9"></div>
     </div>
     <div class="media-object-section">
-      $brand-black <br/>
-       #231f20
-    </div>
-</div>
-<div class="media-object">
-    <div class="media-object-section">
-        <div class="color" style="background-color:#857f87"></div>
-    </div>
-    <div class="media-object-section">
-      $brand-gray <br/>
-       #857f87
+      $brand-light <br/>
+       #f9f9f9
     </div>
 </div>
 <div class="media-object">
@@ -112,11 +114,56 @@ Auxillary pallette supports primary colors to ensure clear communication and con
 </div>
 <div class="media-object">
     <div class="media-object-section">
-        <div class="color" style="background-color:#f9f9f9"></div>
+        <div class="color" style="background-color:#bab8bb"></div>
     </div>
     <div class="media-object-section">
-      $brand-light <br/>
-       #f9f9f9
+      $brand-ash <br/>
+       #bab8bb
+    </div>
+</div>
+<div class="media-object">
+    <div class="media-object-section">
+        <div class="color" style="background-color:#9d989f"></div>
+    </div>
+    <div class="media-object-section">
+      $brand-cadet <br/>
+       #9d989f
+    </div>
+</div>
+<div class="media-object">
+    <div class="media-object-section">
+        <div class="color" style="background-color:#857f87"></div>
+    </div>
+    <div class="media-object-section">
+      $brand-gray <br/>
+       #857f87
+    </div>
+</div>
+<div class="media-object">
+    <div class="media-object-section">
+        <div class="color" style="background-color:#645965"></div>
+    </div>
+    <div class="media-object-section">
+      $brand-dimgray <br/>
+       #645965
+    </div>
+</div>
+<div class="media-object">
+    <div class="media-object-section">
+        <div class="color" style="background-color:#3E323F"></div>
+    </div>
+    <div class="media-object-section">
+      $brand-anthracite <br/>
+       #3E323F
+    </div>
+</div>
+<div class="media-object">
+    <div class="media-object-section">
+        <div class="color" style="background-color:#231f20"></div>
+    </div>
+    <div class="media-object-section">
+      $brand-black <br/>
+       #231f20
     </div>
 </div>
 </div>
@@ -248,6 +295,8 @@ For primary button purposes, main color is black. Inside the app, stick to the p
 <a class="button small" href="#">So Small</a>
 <a class="button" href="#">So Basic</a>
 <a class="button large" href="#">So Large</a>
+<br />
+<br />
 <a class="button expanded" href="#">Such Expand</a>
 
 #### Coloring:
@@ -259,14 +308,8 @@ For primary button purposes, main color is black. Inside the app, stick to the p
 <a class="button warning" href="#">Warning</a>
 
 
-# Alerts
 
-
-<div class="callout">
-  <h5>This is a default callout.</h5>
-  <p>It has an easy to override visual style, and is appropriately subdued.</p>
-  <a href="#">It's dangerous to go alone, take this.</a>
-</div>
+# Callouts - Alerts
 
 <div class="callout primary">
   <h5>This is a primary callout</h5>
@@ -409,10 +452,22 @@ Table as a standalone element:
 
 
 
-# Charts
-...
+# Progressbar
+<div class="progress" role="progressbar" tabindex="0" aria-valuenow="50" aria-valuemin="0" aria-valuetext="50 percent" aria-valuemax="100">
+  <div class="progress-meter" style="width: 50%"></div>
+</div>
 
+<div class="progress success" role="progressbar" tabindex="0" aria-valuenow="80" aria-valuemin="0" aria-valuetext="80 percent" aria-valuemax="100">
+  <div class="progress-meter" style="width: 80%"></div>
+</div>
 
+<div class="progress warning" role="progressbar" tabindex="0" aria-valuenow="30" aria-valuemin="0" aria-valuetext="30 percent" aria-valuemax="100">
+  <div class="progress-meter" style="width: 30%"></div>
+</div>
+
+<div class="progress alert" role="progressbar" tabindex="0" aria-valuenow="10" aria-valuemin="0" aria-valuetext="10 percent" aria-valuemax="100">
+  <div class="progress-meter" style="width: 10%"></div>
+</div>
 
 # Slider
 

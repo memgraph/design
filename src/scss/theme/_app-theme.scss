@@ -119,11 +119,15 @@ h4, h5, h6 {
   border-right: 1px solid $brand-silver;
 }
 
-
-// Side menu search
+// Side menu top elements
 .search-item {
   border-bottom: 1px solid $brand-silver;
   padding: 0.5rem;
+}
+
+.top-item {
+  border-bottom: 1px solid $brand-silver;
+  background: $brand-light;
 }
 
 // Off panel footer
