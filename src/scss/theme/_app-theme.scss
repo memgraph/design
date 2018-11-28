@@ -25,6 +25,7 @@ h4, h5, h6 {
     transform: translateX(0);
   }
 
+  // todo: decouple menu styles
   // Menu inside off-panel
   .menu li {
     color: $brand-primary;
@@ -71,6 +72,15 @@ h4, h5, h6 {
     }
   }
 
+  // different font style
+  .menu.subtle li {
+    color: $brand-black;
+    font-family: $body-font-family;
+    font-weight: normal;
+    &.is-active {
+      color: $brand-primary;
+    }
+  }
 
   // Offset left for sub-off-panel - z-index to slide under main off-panel
   &.off-panel-sub {
