@@ -136,6 +136,7 @@
 .icon-plus-circled:before { content: '\e886'; } /* '' */
 .icon-minus:before { content: '\e887'; } /* '' */
 .icon-minus-circled:before { content: '\e888'; } /* '' */
+.icon-book-sm:before { content: '\e889'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
 .icon-up-open:before { content: '\f005'; } /* '' */
 .icon-right-open:before { content: '\f006'; } /* '' */
@@ -149,7 +150,10 @@
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-github:before { content: '\f09b'; } /* '' */
+.icon-code-sm:before { content: '\f121'; } /* '' */
+.icon-fork:before { content: '\f126'; } /* '' */
 .icon-slack:before { content: '\f198'; } /* '' */
+.icon-building:before { content: '\f1ad'; } /* '' */
 .icon-circle-notch:before { content: '\f1ce'; } /* '' */
 .icon-share:before { content: '\f1e0'; } /* '' */
 .icon-linkedin:before { content: '\f30c'; } /* '' */

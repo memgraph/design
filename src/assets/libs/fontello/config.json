@@ -1689,6 +1689,30 @@
       "css": "circle-notch",
       "code": 61902,
       "src": "fontawesome"
+    },
+    {
+      "uid": "dplw5xo88mzzr7b45nvjcamyyhni6drs",
+      "css": "book-sm",
+      "code": 59529,
+      "src": "modernpics"
+    },
+    {
+      "uid": "bc4b94dd7a9a1dd2e02f9e4648062596",
+      "css": "fork",
+      "code": 61734,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "7034e4d22866af82bef811f52fb1ba46",
+      "css": "code-sm",
+      "code": 61729,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ede2ea0a583f662b79fbb181b428c20d",
+      "css": "building",
+      "code": 61869,
+      "src": "fontawesome"
     }
   ]
 }
