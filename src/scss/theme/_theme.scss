@@ -252,3 +252,19 @@ table thead {
   }
 }
 
+.is-loading {
+  color: transparent !important;
+  &:after {
+    font-family: fontello;
+    color: $white;
+    content: "\f1ce";
+    display: block;
+    margin-top: -1rem;
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+    @include animation(spin, 1s, 0s, infinite);
+    pointer-events: none;
+  }
+}
+
