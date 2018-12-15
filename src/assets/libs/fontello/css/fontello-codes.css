@@ -1,4 +1,3 @@
-
 .icon-account-check:before { content: '\e800'; } /* '' */
 .icon-account-theft:before { content: '\e801'; } /* '' */
 .icon-analytics:before { content: '\e802'; } /* '' */
@@ -55,6 +54,7 @@
 .icon-interchange:before { content: '\e835'; } /* '' */
 .icon-interface:before { content: '\e836'; } /* '' */
 .icon-key:before { content: '\e837'; } /* '' */
+.icon-link-ext:before { content: '\e82b'; }
 .icon-lock:before { content: '\e838'; } /* '' */
 .icon-magnet:before { content: '\e839'; } /* '' */
 .icon-map-marker:before { content: '\e83a'; } /* '' */
