@@ -1,3 +1,4 @@
+
 .icon-account-check:before { content: '\e800'; } /* '' */
 .icon-account-theft:before { content: '\e801'; } /* '' */
 .icon-analytics:before { content: '\e802'; } /* '' */
@@ -54,7 +55,6 @@
 .icon-interchange:before { content: '\e835'; } /* '' */
 .icon-interface:before { content: '\e836'; } /* '' */
 .icon-key:before { content: '\e837'; } /* '' */
-.icon-link-ext:before { content: '\e82b'; }
 .icon-lock:before { content: '\e838'; } /* '' */
 .icon-magnet:before { content: '\e839'; } /* '' */
 .icon-map-marker:before { content: '\e83a'; } /* '' */
@@ -147,6 +147,7 @@
 .icon-move:before { content: '\f047'; } /* '' */
 .icon-ok-circled:before { content: '\f06d'; } /* '' */
 .icon-cancel-circled:before { content: '\f06e'; } /* '' */
+.icon-link-ext:before { content: '\f08e'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-github:before { content: '\f09b'; } /* '' */
