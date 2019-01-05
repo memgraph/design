@@ -729,5 +729,6 @@ We use Fontello to define custom UI icons.
         <div class="the-icons" title="Code: 0xf1e0"><i class="demo-icon icon-share"></i> <span class="i-name">icon-share</span></div>
         <div class="the-icons" title="Code: 0xf30c"><i class="demo-icon icon-linkedin"></i> <span class="i-name">icon-linkedin</span></div>
         <div class="the-icons" title="Code: 0xe08e"><i class="demo-icon icon-link-ext"></i> <span class="i-name">icon-link-ext</span></div>
+        <div class="the-icons" title="Code: 0xef16c"><i class="demo-icon icon-stackoverflow"></i> <span class="i-name">icon-stackoverflow</span></div>
       </div>
     </div>

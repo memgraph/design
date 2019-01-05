@@ -153,6 +153,7 @@
 .icon-github:before { content: '\f09b'; } /* '' */
 .icon-code-sm:before { content: '\f121'; } /* '' */
 .icon-fork:before { content: '\f126'; } /* '' */
+.icon-stackoverflow:before { content: '\f16c'; } /* '' */
 .icon-slack:before { content: '\f198'; } /* '' */
 .icon-building:before { content: '\f1ad'; } /* '' */
 .icon-circle-notch:before { content: '\f1ce'; } /* '' */
