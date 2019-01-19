@@ -2,14 +2,14 @@
 
 This is a repo containing brand assets for Memgraph:
 - Customized ZURB Foundation instance + motion-ui library
-- SASS utilities for easier brand application
+- SASS CSS utilities for easier brand application
 - Fontello custom icon set
 - Brand fonts - Roboto & Encode Sans Semi Condensed
 
 Additionally, there's an option to generate the Styleguide from the available
 styles.
 
-# Installation
+## Installation
 
 1. Add `"memgraph-ui": "git+https://github.com/memgraph/design.git"` as a
    dependency to your projects' package.json, then run `npm install`
@@ -39,6 +39,13 @@ _dist
 |  |-memgraph-foundation-web.css
 </pre>
 
+## Usage
+
+### Simple usage
+
+You can just use compiled css from the `_dist` folder, referencing it like
+this: `<PATH_TO>/memgraph-foundation/_dist/css/memgraph-foundation-<type>.css`
+
 There are three compiled css files, so use just one of them based on your
 needs:
 * `memgraph-foundation.css` can used as a core stylesheet in general-purpose
@@ -48,14 +55,7 @@ needs:
 * `memgraph-foundation-web.css` can used in web projects (landing pages and
   similar).
 
-# Usage
-
-## Simple usage
-
-You can just use compiled css from the `_dist` folder, referencing it like
-this: `<PATH_TO>/memgraph-foundation/_dist/css/memgraph.foundation.css`
-
-## Advanced usage
+### Advanced usage
 
 You can add `memgraph-foundation` SCSS files directly to your project. The SCSS
 files to include are in `memgraph-foundation/src/scss` folder.
@@ -73,8 +73,15 @@ customize default styles. Link these settings and foundation files into your
 SCSS workflow if you do this!
 4. You can also customize Foundation JavaScript by only including the plugins
    you need from the Foundation `dist/js` folder to your build.
+   
+### Updating Fontello font icons
 
-# Memgraph Styleguide
+Icons are defined by using the http://fontello.com/ site.
+
+In `src/libs/fontello`, take the `config.json`and drag it to the fontello website. After that you can choose or upload new icons, or remove icons. Once you're done, download the fontello with new configuration and overwrite the old fontello assets in the `src` folder.
+
+
+## Memgraph Styleguide
 
 Simple styleguide has been set up by using Foundation's `style-sherpa`. It
 serves for developing and adjusting the global Foundation styles and themes. It
@@ -102,7 +109,7 @@ _styleguide
 |-demo-general.html
  </pre>
 
-# LaTeX Document Templates
+## LaTeX Document Templates
 
 In `/latex` folder you can find on-brand document templates used so far for
 presentations or other types of documents.
