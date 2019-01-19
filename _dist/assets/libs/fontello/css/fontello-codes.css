@@ -147,11 +147,13 @@
 .icon-move:before { content: '\f047'; } /* '' */
 .icon-ok-circled:before { content: '\f06d'; } /* '' */
 .icon-cancel-circled:before { content: '\f06e'; } /* '' */
+.icon-link-ext:before { content: '\f08e'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-github:before { content: '\f09b'; } /* '' */
 .icon-code-sm:before { content: '\f121'; } /* '' */
 .icon-fork:before { content: '\f126'; } /* '' */
+.icon-stackoverflow:before { content: '\f16c'; } /* '' */
 .icon-slack:before { content: '\f198'; } /* '' */
 .icon-building:before { content: '\f1ad'; } /* '' */
 .icon-circle-notch:before { content: '\f1ce'; } /* '' */

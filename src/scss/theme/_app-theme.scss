@@ -157,12 +157,16 @@ h4, h5, h6 {
       padding: .85rem 0 0 1.25rem;
       font-size: .7rem;
     }
+    & > div:first-child {
+      display: inline-block;
+      padding: .5rem 0 0 1.25rem;
+      font-size: .7rem;
+    }
     & > span:last-child {
       border-left: 1px solid $brand-silver;
     }
   }
 }
-
 
 // Dropdown Tooltip
 .tooltip-lg {
