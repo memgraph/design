@@ -1,4 +1,4 @@
-a# Memgraph Design
+# Memgraph Design
 
 This is a repo containing brand assets for Memgraph:
 - Customized ZURB Foundation instance + motion-ui library
@@ -8,8 +8,10 @@ This is a repo containing brand assets for Memgraph:
 
 Additionally, there's an option to generate the Styleguide from the available styles.
 
+## Generating styles
+Run `gulp default` to generate css styles and assets from `src` to the `_dist` folder.
 
-# Installation
+## Usage in projects
 
 1. Add `"memgraph-ui": "git+https://github.com/memgraph/design.git"` as a dependency to your projects' package.json, then run `npm install`
 2. Use [Foundation docs](https://foundation.zurb.com/sites/docs/) or Memgraph styleguide for reference on how to use elements
@@ -39,12 +41,11 @@ There are three compiled css files, so use just one of them based on your needs:
 * `memgraph-foundation-app.css` can used as a core stylesheet in apps and demos.
 * `memgraph-foundation-web.css` can used in web projects (landing pages and similar).
 
-# Usage
-## Simple usage
+### Simple usage
 You can just use compiled css from the `_dist` folder, referencing it like this: `<PATH_TO>/memgraph-foundation/_dist/css/memgraph.foundation.css`
 
 
-## Advanced usage
+### Advanced usage
 You can add `memgraph-foundation` SCSS files directly to your project. The SCSS files to include are in `memgraph-foundation/src/scss` folder.
 
 1. Import `memgraph-foundation.scss` to your projects' scss and continue developing from there (change relative paths if needed)
@@ -54,7 +55,7 @@ You can add `memgraph-foundation` SCSS files directly to your project. The SCSS 
 
 
 
-# Memgraph Styleguide
+## Memgraph Styleguide
 
 Simple styleguide has been set up by using Foundation's `style-sherpa`. It serves for developing and adjusting the global Foundation styles and themes. It consists of the main styles index and general demo template for testing. Ideally, every time when basic memgraph-foundation styles are updated, the styleguide should be updated too using `gulp buildStyleguide` (it it's published online).
 This command will create the `_styleguide` folder with the following folder structure:
