@@ -158,11 +158,13 @@
 .icon-move { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf047;&nbsp;'); }
 .icon-ok-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf06d;&nbsp;'); }
 .icon-cancel-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf06e;&nbsp;'); }
+.icon-link-ext { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08e;&nbsp;'); }
 .icon-twitter { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf099;&nbsp;'); }
 .icon-facebook { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09a;&nbsp;'); }
 .icon-github { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09b;&nbsp;'); }
 .icon-code-sm { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf121;&nbsp;'); }
 .icon-fork { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf126;&nbsp;'); }
+.icon-stackoverflow { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16c;&nbsp;'); }
 .icon-slack { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf198;&nbsp;'); }
 .icon-building { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1ad;&nbsp;'); }
 .icon-circle-notch { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1ce;&nbsp;'); }
