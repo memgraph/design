@@ -1715,16 +1715,28 @@
       "src": "fontawesome"
     },
     {
-      "uid": "e15f0d620a7897e2035c18c80142f6d9",
-      "css": "link-ext",
-      "code": 61582,
+      "uid": "c8585e1e5b0467f28b70bce765d5840c",
+      "css": "docs",
+      "code": 61637,
       "src": "fontawesome"
     },
     {
-      "uid": "e1597911f34fea0a188ae51fe4a2d9a9",
-      "css": "stackoverflow",
-      "code": 61804,
+      "uid": "3256ef03b16e7ab51235bc7378b53bb5",
+      "css": "toggle-on",
+      "code": 61957,
       "src": "fontawesome"
+    },
+    {
+      "uid": "2a4e6c99b732a57da40e32fa2a7800a4",
+      "css": "toggle-off",
+      "code": 61956,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "89eb512cb82a1c3fe83cb16134f9876c",
+      "css": "back-in-time",
+      "code": 59530,
+      "src": "entypo"
     }
   ]
 }
