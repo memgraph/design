@@ -138,6 +138,7 @@
 .icon-minus-circled:before { content: '\e888'; } /* '' */
 .icon-book-sm:before { content: '\e889'; } /* '' */
 .icon-back-in-time:before { content: '\e88a'; } /* '' */
+.icon-doc-new:before { content: '\e88b'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
 .icon-up-open:before { content: '\f005'; } /* '' */
 .icon-right-open:before { content: '\f006'; } /* '' */
@@ -154,6 +155,7 @@
 .icon-docs:before { content: '\f0c5'; } /* '' */
 .icon-code-sm:before { content: '\f121'; } /* '' */
 .icon-fork:before { content: '\f126'; } /* '' */
+.icon-stackoverflow:before { content: '\f16c'; } /* '' */
 .icon-slack:before { content: '\f198'; } /* '' */
 .icon-building:before { content: '\f1ad'; } /* '' */
 .icon-circle-notch:before { content: '\f1ce'; } /* '' */
