@@ -738,6 +738,12 @@ We use Fontello to define custom UI icons.
         <div class="the-icons" title="Code: 0xe8c3"><i class="demo-icon icon-piece-of-cake"></i> <span class="i-name">icon-piece-of-cake</span></div>
       </div>
       <div class="row">
+        <div class="the-icons" title="Code: 0xe890"><i class="demo-icon icon-doc-new"></i> <span class="i-name">icon-doc-new</span></div>
+        <div class="the-icons" title="Code: 0xf0c5"><i class="demo-icon icon-docs"></i> <span class="i-name">icon-docs</span></div>
+        <div class="the-icons" title="Code: 0xf204"><i class="demo-icon icon-toggle-off"></i> <span class="i-name">icon-toggle-off</span></div>
+        <div class="the-icons" title="Code: 0xf205"><i class="demo-icon icon-toggle-on"></i> <span class="i-name">icon-toggle-on</span></div>
+      </div>
+      <div class="row">
         <div class="the-icons" title="Code: 0xe8c4"><i class="demo-icon icon-dumbbell"></i> <span class="i-name">icon-dumbbell</span></div>
       </div>
     </div>

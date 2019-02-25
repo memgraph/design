@@ -143,6 +143,7 @@
 .icon-external-link:before { content: '\e88d'; } /* '' */
 .icon-heart-empty:before { content: '\e88e'; } /* '' */
 .icon-heart-1:before { content: '\e88f'; } /* '' */
+.icon-doc-new:before { content: '\e890'; } /* '' */
 .icon-puzzles:before { content: '\e8c2'; } /* '' */
 .icon-piece-of-cake:before { content: '\e8c3'; } /* '' */
 .icon-dumbbell:before { content: '\e8c4'; } /* '' */
@@ -160,6 +161,7 @@
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-github:before { content: '\f09b'; } /* '' */
+.icon-docs:before { content: '\f0c5'; } /* '' */
 .icon-code-sm:before { content: '\f121'; } /* '' */
 .icon-fork:before { content: '\f126'; } /* '' */
 .icon-stackoverflow:before { content: '\f16c'; } /* '' */
@@ -168,4 +170,6 @@
 .icon-lifebuoy:before { content: '\f1cd'; } /* '' */
 .icon-circle-notch:before { content: '\f1ce'; } /* '' */
 .icon-share:before { content: '\f1e0'; } /* '' */
+.icon-toggle-off:before { content: '\f204'; } /* '' */
+.icon-toggle-on:before { content: '\f205'; } /* '' */
 .icon-linkedin:before { content: '\f30c'; } /* '' */
