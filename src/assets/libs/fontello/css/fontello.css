@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?14541108');
-  src: url('../font/fontello.eot?14541108#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?14541108') format('woff2'),
-       url('../font/fontello.woff?14541108') format('woff'),
-       url('../font/fontello.ttf?14541108') format('truetype'),
-       url('../font/fontello.svg?14541108#fontello') format('svg');
+  src: url('../font/fontello.eot?11033355');
+  src: url('../font/fontello.eot?11033355#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?11033355') format('woff2'),
+       url('../font/fontello.woff?11033355') format('woff'),
+       url('../font/fontello.ttf?11033355') format('truetype'),
+       url('../font/fontello.svg?11033355#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?14541108#fontello') format('svg');
+    src: url('../font/fontello.svg?11033355#fontello') format('svg');
   }
 }
 */
@@ -193,8 +193,9 @@
 .icon-minus:before { content: '\e887'; } /* '' */
 .icon-minus-circled:before { content: '\e888'; } /* '' */
 .icon-book-sm:before { content: '\e889'; } /* '' */
-.icon-back-in-time:before { content: '\e88a'; } /* '' */
-.icon-doc-new:before { content: '\e88b'; } /* '' */
+.icon-database-sm:before { content: '\e88a'; } /* '' */
+.icon-history-sm:before { content: '\e88b'; } /* '' */
+.icon-new-document:before { content: '\e88c'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
 .icon-up-open:before { content: '\f005'; } /* '' */
 .icon-right-open:before { content: '\f006'; } /* '' */
@@ -208,14 +209,12 @@
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-github:before { content: '\f09b'; } /* '' */
-.icon-docs:before { content: '\f0c5'; } /* '' */
 .icon-code-sm:before { content: '\f121'; } /* '' */
 .icon-fork:before { content: '\f126'; } /* '' */
 .icon-stackoverflow:before { content: '\f16c'; } /* '' */
 .icon-slack:before { content: '\f198'; } /* '' */
 .icon-building:before { content: '\f1ad'; } /* '' */
+.icon-lifebuoy:before { content: '\f1cd'; } /* '' */
 .icon-circle-notch:before { content: '\f1ce'; } /* '' */
 .icon-share:before { content: '\f1e0'; } /* '' */
-.icon-toggle-off:before { content: '\f204'; } /* '' */
-.icon-toggle-on:before { content: '\f205'; } /* '' */
 .icon-linkedin:before { content: '\f30c'; } /* '' */
