@@ -59,7 +59,7 @@
 .icon-magnet:before { content: '\e839'; } /* '' */
 .icon-map-marker:before { content: '\e83a'; } /* '' */
 .icon-medal:before { content: '\e83b'; } /* '' */
-.icon-money-laundering-copy:before { content: '\e83c'; } /* '' */
+.icon-money-laundering-alt:before { content: '\e83c'; } /* '' */
 .icon-money-laundering:before { content: '\e83d'; } /* '' */
 .icon-monitor:before { content: '\e83e'; } /* '' */
 .icon-nodes-alt:before { content: '\e83f'; } /* '' */
@@ -144,9 +144,11 @@
 .icon-heart-empty:before { content: '\e88e'; } /* '' */
 .icon-heart-1:before { content: '\e88f'; } /* '' */
 .icon-doc-new:before { content: '\e890'; } /* '' */
-.icon-puzzles:before { content: '\e8c2'; } /* '' */
 .icon-piece-of-cake:before { content: '\e8c3'; } /* '' */
 .icon-dumbbell:before { content: '\e8c4'; } /* '' */
+.icon-favorites:before { content: '\e8c5'; } /* '' */
+.icon-puzzles:before { content: '\e8c6'; } /* '' */
+.icon-search-file:before { content: '\e8c7'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
 .icon-up-open:before { content: '\f005'; } /* '' */
 .icon-right-open:before { content: '\f006'; } /* '' */
@@ -170,6 +172,4 @@
 .icon-lifebuoy:before { content: '\f1cd'; } /* '' */
 .icon-circle-notch:before { content: '\f1ce'; } /* '' */
 .icon-share:before { content: '\f1e0'; } /* '' */
-.icon-toggle-off:before { content: '\f204'; } /* '' */
-.icon-toggle-on:before { content: '\f205'; } /* '' */
 .icon-linkedin:before { content: '\f30c'; } /* '' */
