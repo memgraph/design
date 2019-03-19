@@ -144,6 +144,7 @@
 .icon-heart-empty:before { content: '\e88e'; } /* '' */
 .icon-heart-full:before { content: '\e88f'; } /* '' */
 .icon-doc-new:before { content: '\e890'; } /* '' */
+.icon-target-1:before { content: '\e891'; } /* '' */
 .icon-piece-of-cake:before { content: '\e8c3'; } /* '' */
 .icon-dumbbell:before { content: '\e8c4'; } /* '' */
 .icon-favorites:before { content: '\e8c5'; } /* '' */
@@ -174,5 +175,6 @@
 .icon-building:before { content: '\f1ad'; } /* '' */
 .icon-lifebuoy:before { content: '\f1cd'; } /* '' */
 .icon-circle-notch:before { content: '\f1ce'; } /* '' */
+.icon-history-1:before { content: '\f1da'; } /* '' */
 .icon-share:before { content: '\f1e0'; } /* '' */
 .icon-linkedin:before { content: '\f30c'; } /* '' */
