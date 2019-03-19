@@ -1915,6 +1915,18 @@
       "search": [
         "copy"
       ]
+    },
+    {
+      "uid": "d4816c0845aa43767213d45574b3b145",
+      "css": "history-1",
+      "code": 61914,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e75c54c282c0bf22186c5c7ec4b03eac",
+      "css": "target-1",
+      "code": 59537,
+      "src": "fontawesome"
     }
   ]
 }
