@@ -487,8 +487,16 @@ Use slider in forms when user needs to choose a number within a specified range.
     </div>
 </div>
 
+# Switch
 
+Use switch when one option needs to be turned on or off. To control more options within a form, use chackbox instead.
 
+<div class="switch">
+  <input class="switch-input" id="exampleSwitch" type="checkbox" name="exampleSwitch">
+  <label class="switch-paddle" for="exampleSwitch">
+    <span class="show-for-sr">Download Kittens</span>
+  </label>
+</div>
 
 
 # Icons
