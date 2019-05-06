@@ -10,12 +10,12 @@ This is a repo containing brand assets for Memgraph:
 Additionally, there's an option to generate the Styleguide from the available
 styles.
 
-## Generating styles
+## Generating Styles
 
 Run `gulp default` to generate css styles and assets from `src` to the `_dist`
 folder.
 
-## Usage in projects
+## Usage in Projects
 
 1. Add `"memgraph-ui": "git+https://github.com/memgraph/design.git"` as a
    dependency to your projects' package.json, then run `npm install`
@@ -47,14 +47,10 @@ _dist
 </pre>
 ```
 
-## Usage
-
-### Simple usage
+### Simple Usage
 
 You can just use compiled css from the `_dist` folder, referencing it like
 this: `<PATH_TO>/memgraph-foundation/_dist/css/memgraph-foundation-<type>.css`
-
-### Advanced usage
 
 You can add `memgraph-foundation` SCSS files directly to your project. The SCSS
 files to include are in `memgraph-foundation/src/scss` folder.
@@ -69,7 +65,7 @@ needs:
 * `memgraph-foundation-web.css` can used in web projects (landing pages and
   similar).
 
-### Advanced usage
+### Advanced Usage
 
 You can add `memgraph-foundation` SCSS files directly to your project. The SCSS
 files to include are in `memgraph-foundation/src/scss` folder.
@@ -88,7 +84,9 @@ SCSS workflow if you do this!
 4. You can also customize Foundation JavaScript by only including the plugins
    you need from the Foundation `dist/js` folder to your build.
 
-### Updating Fontello font icons
+## Managing Other Artefacts
+
+### Updating Fontello Font Icons
 
 Icons are defined by using the http://fontello.com/ site. In
 `src/libs/fontello`, take the `config.json`and drag it to the fontello website.
@@ -96,9 +94,9 @@ After that you can choose or upload new icons, or remove icons. Once you're
 done, download the fontello with new configuration and overwrite the old
 fontello assets in the `src` folder. After you put the updated fontello files
 to the `src` folder please run `gulp default` because the command will update
-the `_dist` folder which is used from some of the dependent projects.
+the `_dist` folder which is used from some of the dependent projects!
 
-## Memgraph Styleguide
+### Memgraph Styleguide
 
 Simple styleguide has been set up by using Foundation's `style-sherpa`. It
 serves for developing and adjusting the global Foundation styles and themes. It
