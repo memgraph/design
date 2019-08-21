@@ -69,9 +69,9 @@ $anchor-text-decoration-hover: none;
 $hr-border: 1px solid $light-gray;
 $hr-margin: 2rem auto;
 $list-side-margin: 0;
-$blockquote-color: $brand-primary;
-$blockquote-padding: $global-padding/2 $global-padding;
-$blockquote-border: 1px solid $brand-primary;
+$blockquote-color: $brand-secondary;
+$blockquote-padding: $global-padding;
+$blockquote-border: 4px solid $brand-primary;
 $cite-color: $brand-primary;
 
 $abbr-underline: 1px dotted $light-gray;
