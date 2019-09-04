@@ -14,8 +14,8 @@
 .icon-brand-checkmark:before { content: '\e80c'; } /* '' */
 .icon-brand-chip-big:before { content: '\e80d'; } /* '' */
 .icon-brand-chip-small:before { content: '\e80e'; } /* '' */
-.icon-brand-cloud-alt:before { content: '\e80f'; } /* '' */
-.icon-brand-cloud-1:before { content: '\e810'; } /* '' */
+.icon-brand-cloud-download:before { content: '\e80f'; } /* '' */
+.icon-brand-cloud-upload:before { content: '\e810'; } /* '' */
 .icon-brand-code:before { content: '\e811'; } /* '' */
 .icon-brand-cloud:before { content: '\e812'; } /* '' */
 .icon-brand-coffee:before { content: '\e813'; } /* '' */
@@ -120,7 +120,7 @@
 .icon-ui-play:before { content: '\e876'; } /* '' */
 .icon-ui-comment:before { content: '\e877'; } /* '' */
 .icon-ui-search:before { content: '\e878'; } /* '' */
-.icon-ui-upload-cloud:before { content: '\e879'; } /* '' */
+.icon-ui-cloud-upload:before { content: '\e879'; } /* '' */
 .icon-ui-lock-open:before { content: '\e87a'; } /* '' */
 .icon-ui-tools:before { content: '\e87b'; } /* '' */
 .icon-ui-credit-card:before { content: '\e87c'; } /* '' */

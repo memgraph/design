@@ -537,10 +537,10 @@ If you need to add any UI icon to the set, do it from the Entypo group on Fontel
         <div class="medium-3" title="Code: 0xe80c"><i class="icon-brand-checkmark"></i> <span class="i-name">icon-brand-checkmark</span></div>
         <div class="medium-3" title="Code: 0xe80d"><i class="icon-brand-chip-big"></i> <span class="i-name">icon-brand-chip-big</span></div>
         <div class="medium-3" title="Code: 0xe80e"><i class="icon-brand-chip-small"></i> <span class="i-name">icon-brand-chip-small</span></div>
-        <div class="medium-3" title="Code: 0xe80f"><i class="icon-brand-cloud-alt"></i> <span class="i-name">icon-brand-cloud-alt</span></div>
+        <div class="medium-3" title="Code: 0xe80f"><i class="icon-brand-cloud-download"></i> <span class="i-name">icon-brand-cloud-download</span></div>
       </div>
       <div class="row">
-        <div class="medium-3" title="Code: 0xe810"><i class="icon-brand-cloud-1"></i> <span class="i-name">icon-brand-cloud-1</span></div>
+        <div class="medium-3" title="Code: 0xe810"><i class="icon-brand-cloud-upload"></i> <span class="i-name">icon-brand-cloud-upload</span></div>
         <div class="medium-3" title="Code: 0xe811"><i class="icon-brand-code"></i> <span class="i-name">icon-brand-code</span></div>
         <div class="medium-3" title="Code: 0xe812"><i class="icon-brand-cloud"></i> <span class="i-name">icon-brand-cloud</span></div>
         <div class="medium-3" title="Code: 0xe813"><i class="icon-brand-coffee"></i> <span class="i-name">icon-brand-coffee</span></div>
@@ -697,7 +697,7 @@ If you need to add any UI icon to the set, do it from the Entypo group on Fontel
       </div>
       <div class="row">
         <div class="medium-3" title="Code: 0xe878"><i class="icon-ui-search"></i> <span class="i-name">icon-ui-search</span></div>
-        <div class="medium-3" title="Code: 0xe879"><i class="icon-ui-upload-cloud"></i> <span class="i-name">icon-ui-upload-cloud</span></div>
+        <div class="medium-3" title="Code: 0xe879"><i class="icon-ui-cloud-upload"></i> <span class="i-name">icon-ui-cloud-upload</span></div>
         <div class="medium-3" title="Code: 0xe87a"><i class="icon-ui-lock-open"></i> <span class="i-name">icon-ui-lock-open</span></div>
         <div class="medium-3" title="Code: 0xe87b"><i class="icon-ui-tools"></i> <span class="i-name">icon-ui-tools</span></div>
       </div>

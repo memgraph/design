@@ -14,8 +14,8 @@
 .icon-brand-checkmark { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80c;&nbsp;'); }
 .icon-brand-chip-big { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80d;&nbsp;'); }
 .icon-brand-chip-small { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80e;&nbsp;'); }
-.icon-brand-cloud-alt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80f;&nbsp;'); }
-.icon-brand-cloud-1 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe810;&nbsp;'); }
+.icon-brand-cloud-download { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80f;&nbsp;'); }
+.icon-brand-cloud-upload { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe810;&nbsp;'); }
 .icon-brand-code { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe811;&nbsp;'); }
 .icon-brand-cloud { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe812;&nbsp;'); }
 .icon-brand-coffee { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe813;&nbsp;'); }
@@ -120,7 +120,7 @@
 .icon-ui-play { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe876;&nbsp;'); }
 .icon-ui-comment { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe877;&nbsp;'); }
 .icon-ui-search { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe878;&nbsp;'); }
-.icon-ui-upload-cloud { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe879;&nbsp;'); }
+.icon-ui-cloud-upload { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe879;&nbsp;'); }
 .icon-ui-lock-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe87a;&nbsp;'); }
 .icon-ui-tools { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe87b;&nbsp;'); }
 .icon-ui-credit-card { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe87c;&nbsp;'); }

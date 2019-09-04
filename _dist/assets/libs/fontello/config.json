@@ -218,7 +218,7 @@
     },
     {
       "uid": "66ac5cabe00d2025e21f0d09c82c06dd",
-      "css": "brand-cloud-alt",
+      "css": "brand-cloud-download",
       "code": 59407,
       "src": "custom_icons",
       "selected": true,
@@ -232,7 +232,7 @@
     },
     {
       "uid": "579d846550bd63daf728289bcfe6ad91",
-      "css": "brand-cloud-1",
+      "css": "brand-cloud-upload",
       "code": 59408,
       "src": "custom_icons",
       "selected": true,
@@ -1770,7 +1770,7 @@
     },
     {
       "uid": "5d595124cecf472869d1cdc020da0ccc",
-      "css": "ui-upload-cloud",
+      "css": "ui-cloud-upload",
       "code": 59513,
       "src": "entypo"
     },
