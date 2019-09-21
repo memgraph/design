@@ -1606,7 +1606,7 @@
     },
     {
       "uid": "3b45397095e12bc062eaae4a74e68bb2",
-      "css": "piece-of-cake",
+      "css": "brand-cake",
       "code": 59587,
       "src": "custom_icons",
       "selected": true,
@@ -1620,7 +1620,7 @@
     },
     {
       "uid": "149d563e5d70bd69bf35ec15bf3e3aa2",
-      "css": "dumbbell",
+      "css": "brand-dumbbell",
       "code": 59588,
       "src": "custom_icons",
       "selected": true,
@@ -1634,7 +1634,7 @@
     },
     {
       "uid": "32fece3434cd59a3cff8ad1e8a7b054f",
-      "css": "puzzles",
+      "css": "brand-puzzles",
       "code": 59590,
       "src": "custom_icons",
       "selected": true,
@@ -1648,7 +1648,7 @@
     },
     {
       "uid": "75c2aab04ac27582b602d004c4e175a3",
-      "css": "favorites",
+      "css": "brand-favorites",
       "code": 59589,
       "src": "custom_icons",
       "selected": true,
@@ -1662,7 +1662,7 @@
     },
     {
       "uid": "612e95d912e5b86e1859a2808bfa91bc",
-      "css": "search-file",
+      "css": "brand-search-file",
       "code": 59591,
       "src": "custom_icons",
       "selected": true,
@@ -1690,7 +1690,7 @@
     },
     {
       "uid": "3acc0eaff6678773f504e00896c9bc32",
-      "css": "dashboard-fast",
+      "css": "brand-dashboard-fast",
       "code": 59597,
       "src": "custom_icons",
       "selected": true,
@@ -1956,7 +1956,7 @@
     },
     {
       "uid": "744a71fe4b5ab7c4f4b7cd598e9bf75a",
-      "css": "window",
+      "css": "ui-window",
       "code": 59529,
       "src": "entypo"
     },
@@ -2022,7 +2022,7 @@
     },
     {
       "uid": "b7a336095aa4535c3689cb557edf23db",
-      "css": "monitor",
+      "css": "ui-monitor",
       "code": 59557,
       "src": "entypo"
     },
@@ -2051,6 +2051,12 @@
       "search": [
         "run-code"
       ]
+    },
+    {
+      "uid": "8b9e6a8dd8f67f7c003ed8e7e5ee0857",
+      "css": "ui-off",
+      "code": 59570,
+      "src": "fontawesome"
     }
   ]
 }

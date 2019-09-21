@@ -89,7 +89,7 @@ SCSS workflow if you do this!
 ### Updating Fontello Font Icons
 
 Icons are defined by using the http://fontello.com/ site. In
-`src/libs/fontello`, take the `config.json`and drag it to the fontello website.
+`src/libs/fontello`, take the `config.json` and drag it to the fontello website.
 After that you can choose or upload new icons, or remove icons. Once you're
 done, download the fontello with new configuration and overwrite the old
 fontello assets in the `src` folder. After you put the updated fontello files
