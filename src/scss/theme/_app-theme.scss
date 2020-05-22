@@ -17,6 +17,7 @@ h4, h5, h6 {
   padding-top: 60px;
   top: 0;
   width: 320px;
+  border-right: 1px solid $light-gray;
   transform: translateX(-100%);
   @include transition(transform);
   border-radius: 0;
@@ -28,34 +29,14 @@ h4, h5, h6 {
   // todo: decouple menu styles
   // Menu inside off-panel
   .menu li {
-    color: $brand-primary;
-    font-family: $header-font-family;
-    font-weight: 600;
+    color: $brand-black;
+    font-family: $body-font-family;
+    font-weight: 400;
     cursor: pointer;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     &.is-active {
-      background-color: #f6f6f6;
-      border-bottom: 1px solid $brand-silver;
-      background-image: linear-gradient(-45deg, #f6f6f6 0%, $brand-white 100%);
-      position: relative;
-      &:after {
-        content: '';
-        background-color: #f6f6f6;
-        background-image: linear-gradient(-45deg, #f6f6f6 0%, $brand-light 100%);
-        position: absolute;
-        width: 20px;
-        height: 100%;
-        top: 0;
-        right: -20px;
-        box-sizing: content-box;
-        margin-top: -1px;
-        border-top: 1px solid $brand-silver;
-        border-bottom: 1px solid $brand-silver;
-      }
-      &:first-child {
-        border-top: 1px solid $brand-silver;
-      }
+      color: $brand-primary;
     }
     &:not(:last-child) {
       border-bottom: 1px solid $brand-silver;
@@ -71,15 +52,13 @@ h4, h5, h6 {
       margin-bottom: 0;
     }
   }
+  .card-section.menu li { // For full borders
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
-  // different font style
-  .menu.subtle li {
-    color: $brand-black;
-    font-family: $body-font-family;
-    font-weight: normal;
-    &.is-active {
-      color: $brand-primary;
-    }
+  .card-section.menu + .card-section.menu {
+    border-top: 1px solid $brand-silver;
   }
 
   // Offset left for sub-off-panel - z-index to slide under main off-panel

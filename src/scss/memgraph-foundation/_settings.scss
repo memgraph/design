@@ -37,9 +37,9 @@ $white: $brand-white;
 $body-background: $light-gray;
 $body-font-color: $black;
 $body-font-family: 'Roboto', Arial, sans-serif;
-$global-margin: 1.25rem;
-$global-padding: 1.25rem;
-$global-radius: 6px;
+$global-margin: 1rem;
+$global-padding: 1rem;
+$global-radius: 4px;
 $global-menu-padding: 1.25rem;
 $global-menu-nested-margin: 1rem;
 
@@ -91,7 +91,7 @@ $breadcrumbs-item-color: $brand-primary;
 // 11. Button
 // ----------
 
-$button-font-family: 'Roboto', sans-serif;
+$button-font-family: 'Roboto 700', Roboto, sans-serif;
 $button-margin: 0;
 $button-background: $black;
 $button-background-hover-lightness: 20%;
@@ -205,7 +205,7 @@ $reveal-overlay-background: rgba($black, 0.25);
 // ----------
 
 $slider-fill-background: $brand-primary;
-$slider-radius: $global-radius*2;
+$slider-radius: $global-radius*3;
 $slider-width-vertical: 0.25rem;
 $slider-height: 0.25rem;
 $slider-handle-background: $brand-primary;
@@ -219,6 +219,7 @@ $table-color-scale: 3%;
 $table-stripe: odd;
 $table-head-background: $white;
 $table-head-row-hover: $white;
+$table-padding: 0.8rem 1rem;
 
 
 // 51. Tabs
@@ -249,6 +250,10 @@ $titlebar-icon-color-hover: $dark-gray;
 // -----------
 $tooltip-background-color: rgba(35, 31, 32, 0.96); // our black but transparent
 $has-tip-cursor: default;
+$tooltip-pip-width: 0.4rem;
+$tooltip-pip-height: 0.3rem;
+$tooltip-padding: 0.5rem 0.8rem;
+$tooltip-max-width: 20rem;
 
 
 // 55. Top Bar

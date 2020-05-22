@@ -106,58 +106,46 @@
         </div>
 
         <button class="button primary hollow expanded">Generate transactions</button>
-
-        <hr>
-
-        <label class="help-text text-uppercase">Queries</label>
-        <div id="examples">
-            <ul id="example-list" class="menu vertical">
-                <li id="0">
-                    Top Mixing Services
-                    <p>Find top mixing service addresses</p>
-                </li>
-                <li id="1" class="is-active">
-                    Top Miners
-                    <p>Find top addresses that mined the most ether</p>
-                </li>
-                <li id="2">
-                    Top Balances
-                    <p>Find top addresses with the most ether</p>
-                </li>
-            </ul>
-        </div>
-
-        <hr>
-
-        <ul id="sub-panel-menu" class="menu vertical">
-            <li id="tweets" data-toggle="off-sub-tweets">
-                <h6>Tweets <span class="icon-ui-right-open float-right"></span></h6>
-            </li>
-            <li id="attendees" class="is-active" data-toggle="off-sub-attendees">
-                <h6>Attendees <span class="icon-ui-right-open float-right"></span></h6>
-            </li>
-        </ul>
-
-        <hr>
-
-        <ul class="menu vertical subtle">
-            <li>
-                Tweets
-            </li>
-            <li class="is-active">
-                Attendees
-            </li>
-        </ul>
-
-        <hr>
-
-
         <label class="help-text text-uppercase">Run query</label>
         <button class="button primary expanded"><span class="icon-ui-right"></span> Detect fraud</button>
-
-        <hr>
-
     </div>
+
+    <ul id="example-list" class="card-section menu vertical">
+        <li>
+            <label class="help-text text-uppercase">Queries</label>
+        </li>
+        <li id="0">
+            Top Mixing Services
+            <p>Find top mixing service addresses</p>
+        </li>
+        <li id="1" class="is-active">
+            Top Miners
+            <p>Find top addresses that mined the most ether</p>
+        </li>
+        <li id="2">
+            Top Balances
+            <p>Find top addresses with the most ether</p>
+        </li>
+    </ul>
+
+    <ul id="sub-panel-menu" class="card-section menu vertical">
+        <li id="tweets" data-toggle="off-sub-tweets">
+            <h6>Tweets <span class="icon-ui-right-open float-right"></span></h6>
+        </li>
+        <li id="attendees" class="is-active" data-toggle="off-sub-attendees">
+            <h6>Attendees <span class="icon-ui-right-open float-right"></span></h6>
+        </li>
+    </ul>
+
+    <ul class="card-section menu vertical">
+        <li>
+            Tweets
+        </li>
+        <li class="is-active">
+            Attendees
+        </li>
+    </ul>
+
     <div class="card-divider fixed-footer">
         <div class="footer-stats">
             <label class="help-text text-uppercase"><span class="icon-ui-chart-line"></span> Key stats</label>
@@ -184,9 +172,9 @@
     </button>
 
     <!-- Empty state -->
-    <div class="align-self-middle text-center hide">
+    <div class="align-self-middle text-center">
         <h6 class="title-decorative">Nothing here yet.</h6>
-        <p class="help-text">Start by configuring your transactions <br class="hide-for-small-only">
+        <p class="help-text">Start by <span data-tooltip class="top" tabindex="2"  title="Test tooltip with very long text here, hooray.">configuring</span> your <span data-tooltip class="top" tabindex="2"  title="Test">transactions</span> <br class="hide-for-small-only">
             from the menu on the left.
         </p>
     </div>
