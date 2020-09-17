@@ -282,12 +282,11 @@ $list-group-border-radius: 0;
 $list-group-padding: 1rem 0;
 $list-group-margin: $global-margin;
 
-
-
 // Switch
 // ----------
-$switch-radius: $global-radius*3;
-$switch-paddle-radius: $global-radius*4;
+$switch-radius: $global-radius*4;
+$switch-paddle-radius: $global-radius*3;
+
 
 // Label
 // ---------
