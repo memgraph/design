@@ -74,7 +74,7 @@ h4, h5, h6 {
 
 // Main page content
 .off-panel-main {
-  @include transition(margin-left);
+  @include transition(margin);
   padding-top: 60px; // top padding to escape overlap from off-panel-button
 }
 
