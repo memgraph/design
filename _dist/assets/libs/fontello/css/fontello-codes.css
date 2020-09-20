@@ -178,8 +178,8 @@
 .icon-ui-map-marker:before { content: '\e8b0'; } /* '' */
 .icon-ui-compass:before { content: '\e8b1'; } /* '' */
 .icon-ui-off:before { content: '\e8b2'; } /* '' */
-.icon-play-circled:before { content: '\e8b3'; } /* '' */
-.icon-dot-3:before { content: '\e8b4'; } /* '' */
+.icon-ui-play-circled:before { content: '\e8b3'; } /* '' */
+.icon-ui-menu-dots:before { content: '\e8b4'; } /* '' */
 .icon-brand-cake:before { content: '\e8c3'; } /* '' */
 .icon-brand-dumbbell:before { content: '\e8c4'; } /* '' */
 .icon-brand-favorites:before { content: '\e8c5'; } /* '' */
