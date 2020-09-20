@@ -178,6 +178,8 @@
 .icon-ui-map-marker { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8b0;&nbsp;'); }
 .icon-ui-compass { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8b1;&nbsp;'); }
 .icon-ui-off { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8b2;&nbsp;'); }
+.icon-play-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8b3;&nbsp;'); }
+.icon-dot-3 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8b4;&nbsp;'); }
 .icon-brand-cake { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8c3;&nbsp;'); }
 .icon-brand-dumbbell { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8c4;&nbsp;'); }
 .icon-brand-favorites { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe8c5;&nbsp;'); }

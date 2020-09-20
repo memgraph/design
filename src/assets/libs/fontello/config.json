@@ -2057,6 +2057,18 @@
       "css": "ui-off",
       "code": 59570,
       "src": "fontawesome"
+    },
+    {
+      "uid": "fc006ff27e50163bdec3a7588226171b",
+      "css": "play-circled",
+      "code": 59571,
+      "src": "elusive"
+    },
+    {
+      "uid": "d10920db2e79c997c5e783279291970c",
+      "css": "dot-3",
+      "code": 59572,
+      "src": "entypo"
     }
   ]
 }
