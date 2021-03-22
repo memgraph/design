@@ -8,9 +8,9 @@ To customize the use of Foundation components, copy the `_foundation.scss` and `
 
 # Colors
 
-The Memgraph primary pallette represents the brand. It is vivid, clean and bold. Use primary colors sparsly, when emphasizing elements. These colors are best used in form of gradients for content areas, backgrounds etc. Main accent color for text is orange.
+The Memgraph primary palette represents the brand. It is vivid, clean and bold. Use primary colors sparsely, when emphasizing elements. These colors are best used in form of gradients for content areas, backgrounds etc. Main accent color for text is orange.
 
-Auxillary pallette supports primary colors to ensure clear communication and contrast. These colors should be used only as an addition to tone down primary pallette usage, never as standalone colors.
+Auxiliary palette supports primary colors to ensure clear communication and contrast. These colors should be used only as an addition to tone down primary palette usage, never as standalone colors.
 
 <div class="grid-x">
 <div class="medium-6">
@@ -286,7 +286,7 @@ Use Encode Sans Pro only for headings, and avoid using italics. Never use it for
 
 # Buttons
 
-For primary button purposes, main color is black. Inside the app, stick to the primary color palette. You cna apply button classes to both link and button elements.
+For primary button purposes, main color is black. Inside the app, stick to the primary color palette. You can apply button classes to both link and button elements.
 
 #### Sizing:
 
@@ -497,7 +497,7 @@ Use slider in forms when user needs to choose a number within a specified range.
 
 # Switch
 
-Use switch when one option needs to be turned on or off. To control more options within a form, use chackbox instead.
+Use switch when one option needs to be turned on or off. To control more options within a form, use checkbox instead.
 
 <div class="switch">
   <input class="switch-input" id="exampleSwitch" type="checkbox" name="exampleSwitch">
@@ -819,4 +819,3 @@ If you need to add any UI icon to the set, do it from the Entypo group on Fontel
         <div class="medium-3" title="Code: 0xf30c"><i class="icon-ui-linkedin"></i> <span class="i-name">icon-ui-linkedin</span></div>
       </div>
     </div>
-
